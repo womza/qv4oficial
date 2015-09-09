@@ -1,0 +1,7 @@
+@mixin opacity($opacity){
+    opacity: $opacity;
+}
+
+@mixin box-shadow($property, $property2:null){
+    box-shadow: $property;
+}

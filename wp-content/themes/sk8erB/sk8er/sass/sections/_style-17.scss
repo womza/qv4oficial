@@ -1,0 +1,335 @@
+section.style-17 {
+	.inner {
+		padding: 60px 0;
+	}
+
+	.title-bar {
+		text-align: center;
+		width: 100%;
+		float: left;
+		margin-bottom: 30px;
+		font-family: $lovelo;
+
+		h3 {
+			display: block;
+			font-size: 35px;
+			line-height: 1;
+			color: #000;
+		}
+
+		span {
+			display: block;
+			font-size: 14px;
+			color: #000;
+			margin-top: -10px;
+		}
+	}
+
+	&.services {
+		background: #f0f0f0;
+
+		.box {
+			width: 100%;
+			height: auto;
+			border: 2px solid #e1e1e1;
+			overflow: hidden;
+			@include transition(all .25s);
+			margin: 15px 0;
+
+			&:hover {
+				border-color: #fe4b68;
+			}
+
+			.icon {
+				width: 110px;
+				height: 100%;
+				float: left;
+				position: relative;
+
+				i {
+					font-size: 55px;
+					position: absolute;
+					top: 50%;
+					left: 50%;
+					@include transform(translate(-50%, -50%));
+					color: #fe4b68;
+				}
+			}
+
+			.content {
+				width: calc(100% - 110px);
+				height: 100%;
+				float: left;
+				padding: 20px 15px;
+
+				.name {
+					font-size: 14px;
+					color: #fe4b68;
+					font-family: $lovelo;
+				}
+
+				p {
+					font-size: 13px;
+					line-height: 16px;
+					color: #979797;
+					margin: 0;
+					padding-top: 5px;
+				}
+			}
+		}
+	}
+
+	&.our-team {
+		.members {
+			> div {
+				margin-bottom: 30px;
+				margin-top: 30px;
+				overflow: hidden;
+			}
+		}
+
+		.box {
+			&:hover {
+				.image {
+					@include transform(rotate(-15deg));
+				}
+			}
+
+			.image {
+				width: 105px;
+				height: 105px;
+				float: left;
+				@include border-radius(50%);
+				overflow: hidden;
+				background-size: cover;
+				background-position: center center;
+				@include box-shadow(inset 0 0 0 2px #fe4b68, inset 0 0 0 4px #fff);
+				@include transition(all .25s);
+			}
+
+			.content {
+				width: calc(100% - 105px);
+				height: 100%;
+				float: left;
+				padding-left: 30px;
+				padding-top: 15px;
+
+				.name {
+					font-size: 18px;
+					color: #000000;
+					font-family: $lovelo;
+					display: block;
+				}
+
+				.position {
+					font-size: 14px;
+					color: #8b8b8b;
+					display: block;
+					margin-top: -3px;
+				}
+
+				.social {
+					width: 100%;
+					float: left;
+					margin-top: 10px;
+
+					a {
+						width: 24px;
+						height: 24px;
+						display: inline-block;
+						background: #8b8b8b;
+						text-align: center;
+						line-height: 24px;
+						color: #fff;
+						@include border-radius(50%);
+						font-size: 11px;
+						margin-left: -4px;
+						margin-right: 5px;
+
+						&:hover {
+							background: #fe4b68;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	&.portfolio {
+		background: #f0f0f0;
+		overflow: hidden;
+		position: relative;
+		z-index: 10;
+
+		.portfolio-gallery-wrapper {
+			width: 100%;
+			height: 100%;
+			float: left;
+			overflow: hidden;
+			margin: 0;
+			margin-left: -2px !important;
+			margin-right: -2px !important;
+			margin-top: 60px;
+
+			.portfolio-gallery {
+				width: 100%;
+				overflow: hidden;
+				position: relative;
+
+				.scrollableArea {
+					min-width: 100%;
+					position: relative;
+				}
+			}
+
+			.column {
+				padding: 0;
+				float: left;
+
+				@media screen and (max-width: 1024px) {
+					width: 50%;
+				}
+
+				.single:nth-of-type(2) {
+					.image {
+						float: right;
+					}
+					.content {
+						&:before {
+							left: auto;
+							right: -19px;
+							@include transform(translateY(-50%) rotate(180deg));
+						}
+					}
+				}
+			}
+		}
+
+		.single {
+			width: 100%;
+			background: #fff;
+
+			&, > div {
+				height: 250px;
+			}
+
+			.image {
+				width: 50%;
+				float: left;
+				overflow: hidden;
+				position: relative;
+				background-size: cover;
+				background-position: center center;
+
+				a {
+					position: absolute;
+					top: 0;
+					right: 0;
+					bottom: 0;
+					left: 0;
+					background: rgba(254, 75, 104, .85);
+					@include opacity(0);
+					@include transition(all .25s);
+
+					&:hover {
+						@include opacity(1);
+					}
+
+					i {
+						position: absolute;
+						top: 50%;
+						left: 50%;
+						@include transform(translate(-50%, -50%));
+						color: #fff;
+						font-size: 26px;
+					}
+				}
+				@media screen and (max-width: 1024px) {
+					width: 0%;
+					display: none;
+				}
+			}
+			.content {
+				width: 50%;
+				float: left;
+				text-align: center;
+				position: relative;
+
+				&:before {
+					content: "";
+					position: absolute;
+					top: 50%;
+					left: -19px;
+					@include transform(translateY(-50%));
+					width: 0;
+					height: 0;
+					border-style: solid;
+					border-width: 20px 20px 20px 0;
+					border-color: transparent #fff transparent transparent;
+				}
+
+				.inside {
+					position: absolute;
+					top: 50%;
+					left: 0;
+					@include transform(translateY(-50%));
+					width: 100%;
+					padding: 30px;
+				}
+
+				.name {
+					font-size: 18px;
+					font-family: $lovelo;
+				}
+
+				p {
+					font-size: 14px;
+					color: #8b8b8b;
+					line-height: 23px;
+					margin-top: 10px;
+				}
+
+				@media screen and (max-width: 1024px) {
+					width: 100%;
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 992px) {
+	section.style-17 {
+		&.our-team {
+			.members {
+				> div {
+					margin-bottom: 60px !important;
+
+					&:last-child {
+						margin-bottom: 0;
+					}
+				}
+			}
+		}
+		&.portfolio {
+			.single {
+				&, > div {
+					height: 200px;
+				}
+
+				.content {
+					.inside {
+						padding: 15px;
+					}
+					
+					.name {
+						font-size: 15px;
+					}
+					p {
+						font-size: 12px;
+						line-height: 16px;
+					}
+				}
+			}
+		}
+	}
+}

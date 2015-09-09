@@ -1,0 +1,43 @@
+/* line 2, C:/wamp/www/Sk8er_Revision/wp-content/themes/sk8er/admin/redux-framework/ReduxCore/inc/fields/image_select/field_image_select.scss */
+.redux-container-image_select .redux-table-container {
+  display: table;
+  table-layout: fixed;
+  width: 100%; }
+/* line 8, C:/wamp/www/Sk8er_Revision/wp-content/themes/sk8er/admin/redux-framework/ReduxCore/inc/fields/image_select/field_image_select.scss */
+.redux-container-image_select .redux-image-select {
+  margin: 0 !important; }
+  /* line 11, C:/wamp/www/Sk8er_Revision/wp-content/themes/sk8er/admin/redux-framework/ReduxCore/inc/fields/image_select/field_image_select.scss */
+  .redux-container-image_select .redux-image-select .tiles {
+    display: block;
+    background-color: #FFF;
+    background-repeat: repeat;
+    width: 40px;
+    height: 40px; }
+  /* line 20, C:/wamp/www/Sk8er_Revision/wp-content/themes/sk8er/admin/redux-framework/ReduxCore/inc/fields/image_select/field_image_select.scss */
+  .redux-container-image_select .redux-image-select img, .redux-container-image_select .redux-image-select .tiles {
+    border-color: #d9d9d9; }
+  /* line 24, C:/wamp/www/Sk8er_Revision/wp-content/themes/sk8er/admin/redux-framework/ReduxCore/inc/fields/image_select/field_image_select.scss */
+  .redux-container-image_select .redux-image-select li:last-child {
+    margin-bottom: 0; }
+  /* line 28, C:/wamp/www/Sk8er_Revision/wp-content/themes/sk8er/admin/redux-framework/ReduxCore/inc/fields/image_select/field_image_select.scss */
+  .redux-container-image_select .redux-image-select input[type='radio'] {
+    display: none; }
+/* line 33, C:/wamp/www/Sk8er_Revision/wp-content/themes/sk8er/admin/redux-framework/ReduxCore/inc/fields/image_select/field_image_select.scss */
+.redux-container-image_select .redux-image-select-presets img {
+  width: 100%; }
+/* line 37, C:/wamp/www/Sk8er_Revision/wp-content/themes/sk8er/admin/redux-framework/ReduxCore/inc/fields/image_select/field_image_select.scss */
+.redux-container-image_select ul.redux-image-select li {
+  margin: 0 10px 3px 10px;
+  display: inline-block;
+  padding: 2px 2px;
+  padding-left: 0; }
+/* line 44, C:/wamp/www/Sk8er_Revision/wp-content/themes/sk8er/admin/redux-framework/ReduxCore/inc/fields/image_select/field_image_select.scss */
+.redux-container-image_select .redux-image-select-selected {
+  background-color: #f9f9f9; }
+/* line 51, C:/wamp/www/Sk8er_Revision/wp-content/themes/sk8er/admin/redux-framework/ReduxCore/inc/fields/image_select/field_image_select.scss */
+.redux-container-image_select .redux-image-select img, .redux-container-image_select .redux-image-select-selected img, .redux-container-image_select .redux-image-select .tiles, .redux-container-image_select .redux-image-select-selected .tiles {
+  border-width: 4px;
+  border-style: solid; }
+/* line 58, C:/wamp/www/Sk8er_Revision/wp-content/themes/sk8er/admin/redux-framework/ReduxCore/inc/fields/image_select/field_image_select.scss */
+.redux-container-image_select .redux-image-select-selected .tiles, .redux-container-image_select .redux-image-select-selected .tiles {
+  border-color: #7a7a7a; }

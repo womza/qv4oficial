@@ -1,0 +1,73 @@
+/* line 3, C:/wamp/www/Sk8er_Revision/wp-content/themes/sk8er/admin/redux-framework/ReduxCore/assets/css/color-picker/color-picker.scss */
+.redux-main input.redux-color {
+  float: left;
+  width: 70px;
+  margin-left: 5px; }
+/* line 9, C:/wamp/www/Sk8er_Revision/wp-content/themes/sk8er/admin/redux-framework/ReduxCore/assets/css/color-picker/color-picker.scss */
+.redux-main input.color-transparency {
+  margin-left: 10px;
+  margin-right: 3px; }
+/* line 14, C:/wamp/www/Sk8er_Revision/wp-content/themes/sk8er/admin/redux-framework/ReduxCore/assets/css/color-picker/color-picker.scss */
+.redux-main input.wp-color-picker {
+  width: 80px !important; }
+/* line 20, C:/wamp/www/Sk8er_Revision/wp-content/themes/sk8er/admin/redux-framework/ReduxCore/assets/css/color-picker/color-picker.scss */
+.redux-main .section-color .controls {
+  width: 345px; }
+/* line 24, C:/wamp/www/Sk8er_Revision/wp-content/themes/sk8er/admin/redux-framework/ReduxCore/assets/css/color-picker/color-picker.scss */
+.redux-main .section-color .explain {
+  width: 225px; }
+/* line 30, C:/wamp/www/Sk8er_Revision/wp-content/themes/sk8er/admin/redux-framework/ReduxCore/assets/css/color-picker/color-picker.scss */
+.redux-main .iris-picker .iris-strip .ui-slider-handle {
+  position: absolute;
+  background: none !important;
+  right: -3px;
+  left: -3px;
+  border: 4px solid #aaa !important;
+  border-width: 4px 3px;
+  width: auto;
+  border-radius: 4px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  opacity: 0.9;
+  z-index: 5;
+  cursor: ns-resize; }
+/* line 45, C:/wamp/www/Sk8er_Revision/wp-content/themes/sk8er/admin/redux-framework/ReduxCore/assets/css/color-picker/color-picker.scss */
+.redux-main .iris-picker .iris-slider-offset {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  right: 0;
+  bottom: 4px;
+  width: 28px;
+  background: none !important;
+  border: 0 !important;
+  height: auto; }
+/* line 59, C:/wamp/www/Sk8er_Revision/wp-content/themes/sk8er/admin/redux-framework/ReduxCore/assets/css/color-picker/color-picker.scss */
+.redux-main .wp-picker-container input {
+  margin-bottom: inherit;
+  margin-top: inherit;
+  padding: 3px 5px; }
+/* line 65, C:/wamp/www/Sk8er_Revision/wp-content/themes/sk8er/admin/redux-framework/ReduxCore/assets/css/color-picker/color-picker.scss */
+.redux-main .wp-picker-container .wp-color-result {
+  outline: 0;
+  margin: 0; }
+/* line 70, C:/wamp/www/Sk8er_Revision/wp-content/themes/sk8er/admin/redux-framework/ReduxCore/assets/css/color-picker/color-picker.scss */
+.redux-main .wp-picker-container .wp-picker-default {
+  padding: 0 10px 1px; }
+/* line 75, C:/wamp/www/Sk8er_Revision/wp-content/themes/sk8er/admin/redux-framework/ReduxCore/assets/css/color-picker/color-picker.scss */
+.redux-main .redux-color-gradient {
+  line-height: 24px; }
+/* line 79, C:/wamp/www/Sk8er_Revision/wp-content/themes/sk8er/admin/redux-framework/ReduxCore/assets/css/color-picker/color-picker.scss */
+.redux-main .color-transparency-check {
+  line-height: 1;
+  margin-top: 0px !important; }
+/* line 84, C:/wamp/www/Sk8er_Revision/wp-content/themes/sk8er/admin/redux-framework/ReduxCore/assets/css/color-picker/color-picker.scss */
+.redux-main .wp-picker-clear {
+  margin-top: 0 !important; }
+
+/* line 90, C:/wamp/www/Sk8er_Revision/wp-content/themes/sk8er/admin/redux-framework/ReduxCore/assets/css/color-picker/color-picker.scss */
+.wp-customizer .redux-main input.wp-picker-default, .wp-customizer .redux-main .redux-typography-container input.wp-picker-default, .wp-customizer .redux-main .redux-typography-container .redux-typography-color {
+  padding: 0px 4px !important; }
+/* line 93, C:/wamp/www/Sk8er_Revision/wp-content/themes/sk8er/admin/redux-framework/ReduxCore/assets/css/color-picker/color-picker.scss */
+.wp-customizer .redux-main input.wp-color-picker {
+  width: 65px !important;
+  margin-left: 5px !important; }

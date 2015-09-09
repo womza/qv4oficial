@@ -1,0 +1,140 @@
+section.style-20 {
+	&.full-height-section {
+		.items-wrapper {
+			position: relative;
+			height: 100%;
+			width: 100%;
+			//margin-left: -2px !important;
+			margin-right: -2px !important;
+
+			.scrollingHotSpotLeft, .scrollingHotSpotRight {
+				cursor: default !important;
+			}
+
+			.scrollableArea > div {
+				padding: 0;
+			}
+
+			.scrollableArea {
+				min-width: 100%;
+			}
+		}
+		.item {
+			width: 25%;
+			height: 100%;
+			float: left;
+			background-size: cover;
+			background-position: center center;
+			position: relative;
+			overflow: hidden;
+
+			@media screen and (max-width: 992px) {
+				width: 100%;
+				height: 300px;
+			}
+
+			&:before, &:after {
+				content: "";
+				position: absolute;
+				z-index: 4;
+				top: 0;
+				right: 0;
+				bottom: 0;
+				left: 0;
+				background: rgba(255,255,255,.7);
+				@include transition(all .25s);
+			}
+
+			&:after {
+				background: rgba(0,0,0,.8);
+				@include opacity(0);
+				z-index: 5;
+			}
+
+			&:hover {
+				&:after {
+					@include opacity(1);
+				}
+			}
+
+			a {
+				position: absolute;
+				z-index: 11;
+				top: 0;
+				right: 0;
+				bottom: 0;
+				left: 0;
+			}
+
+			&:hover {
+				.valign {
+					color: #fff;
+
+					h3 {
+						&:after {
+							background: rgba(255,255,255,.25);
+						}
+					}
+
+					.read-more {
+						background: #fff;
+						color: #000;
+					}
+				}
+			}
+
+			.valign {
+				width: 100%;
+				position: absolute;
+				z-index: 10;
+				top: 50%;
+				left: 0;
+				@include transform(translateY(-50%));
+				padding: 0 15px;
+				text-align: center;
+				color: #000;
+
+				span, h3, h3:after, .read-more {
+					@include transition(all .25s);
+				}
+
+				span {
+					font-size: 14px;
+					letter-spacing: 2px;
+					text-transform: uppercase;
+					font-family: $lovelo;
+				}
+
+				h3 {
+					margin: 0;
+					padding: 0;
+					font-family: $arapey;
+					font-size: 74px;
+					line-height: 60px;
+					text-transform: uppercase;
+					margin-top: 5px;
+					word-break: break-all;
+
+					&:after {
+						content: "";
+						width: 70px;
+						height: 1px;
+						background: rgba(0,0,0,.25);
+						display: block;
+						margin: 30px auto;
+					}
+				}
+
+				.read-more {
+					padding: 15px 40px;
+					display: inline-block;
+					background: #000;
+					color: #fff;
+					font-family: $lovelo;
+					font-size: 14px;
+					cursor: pointer;
+				}
+			}
+		}
+	}
+}

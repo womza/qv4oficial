@@ -1,0 +1,169 @@
+/*
+Theme Name: Sk8er - iOS8 Inspired Multi-Purpose Parallax Theme
+Theme URI: http://ava-themes.com/WP/
+Author: AVAThemes
+Author URI: http://themeforest.net/user/AVAThemes
+Description:
+Sk8er is an iOS8 Inspired Multi-Purpose Parallax WooCommerce enabled theme with a clean and professional design which will be a great solution for your business, portfolio, blog or any other purpose. Sk8er is a modern theme with fully responsive design. It has a wide range of features and comes with bunch of popular plugins such as Visual Composer and Revolution Slider.
+Generated at: http://generate.reduxframework.com/
+Version: 1.2.24
+License: GNU General Public License
+License URI: license.txt
+Text Domain: sk8er
+Tags: black, white, dark, light, red, one-column, responsive-layout, custom-background, custom-colors, custom-header, custom-menu, featured-image-header, flexible-header, post-formats, sticky-post, theme-options
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+Sk8er is based on Underscores http://underscores.me/, (C) 2012-2014 Automattic, Inc.
+
+Resetting and rebuilding styles have been helped along thanks to the fine work of
+Eric Meyer http://meyerweb.com/eric/tools/css/reset/index.html
+along with Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+and Blueprint http://www.blueprintcss.org/
+*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+1.0 Main
+2.0 Sections
+	2.1 Section 1
+	2.2 Section 2
+	2.3 Section 3
+	2.4 Section 4
+	2.5 Section 5
+	2.6 Section 6
+	2.7 Section 7
+	2.8 Section 8
+	2.9 Section 9
+	2.10 Section 10
+	2.11 Section 11
+	2.12 Section 12
+	2.13 Section 13
+	2.14 Section 14
+	2.15 Section 15
+	2.16 Section 16
+	2.17 Section 17
+	2.18 Section 18
+	2.19 Section 19
+	2.20 Section 20
+	2.21 Misc Section
+--------------------------------------------------------------*/
+@import "bourbon/bourbon";
+@import "bootstrap-variables";
+@import "custom-mixins";
+@import "bootstrap";
+
+/*--------------------------------------------------------------
+1.0 Main
+--------------------------------------------------------------*/
+@import "general";
+
+/*--------------------------------------------------------------
+2.0 Sections
+--------------------------------------------------------------*/
+	/*--------------------------------------------------------------
+	2.1 Section 1
+	--------------------------------------------------------------*/
+	@import "sections/style-1";
+
+	/*--------------------------------------------------------------
+	2.2 Section 2
+	--------------------------------------------------------------*/
+	@import "sections/style-2";
+
+	/*--------------------------------------------------------------
+	2.3 Section 3
+	--------------------------------------------------------------*/
+	@import "sections/style-3";
+
+	/*--------------------------------------------------------------
+	2.4 Section 4
+	--------------------------------------------------------------*/
+	@import "sections/style-4";
+
+	/*--------------------------------------------------------------
+	2.5 Section 5
+	--------------------------------------------------------------*/
+	@import "sections/style-5";
+
+	/*--------------------------------------------------------------
+	2.6 Section 6
+	--------------------------------------------------------------*/
+	@import "sections/style-6";
+
+	/*--------------------------------------------------------------
+	2.7 Section 7
+	--------------------------------------------------------------*/
+	@import "sections/style-7";
+
+	/*--------------------------------------------------------------
+	2.8 Section 8
+	--------------------------------------------------------------*/
+	@import "sections/style-8";
+
+	/*--------------------------------------------------------------
+	2.9 Section 9
+	--------------------------------------------------------------*/
+	@import "sections/style-9";
+
+	/*--------------------------------------------------------------
+	2.19 Section 10
+	--------------------------------------------------------------*/
+	@import "sections/style-10";
+
+	/*--------------------------------------------------------------
+	2.11 Section 11
+	--------------------------------------------------------------*/
+	@import "sections/style-11";
+
+	/*--------------------------------------------------------------
+	2.12 Section 12
+	--------------------------------------------------------------*/
+	@import "sections/style-12";
+
+	/*--------------------------------------------------------------
+	2.13 Section 13
+	--------------------------------------------------------------*/
+	@import "sections/style-13";
+
+	/*--------------------------------------------------------------
+	2.14 Section 14
+	--------------------------------------------------------------*/
+	@import "sections/style-14";
+
+	/*--------------------------------------------------------------
+	2.15 Section 15
+	--------------------------------------------------------------*/
+	@import "sections/style-15";
+
+	/*--------------------------------------------------------------
+	2.16 Section 16
+	--------------------------------------------------------------*/
+	@import "sections/style-16";
+
+	/*--------------------------------------------------------------
+	2.17 Section 17
+	--------------------------------------------------------------*/
+	@import "sections/style-17";
+
+	/*--------------------------------------------------------------
+	2.18 Section 18
+	--------------------------------------------------------------*/
+	@import "sections/style-18";
+
+	/*--------------------------------------------------------------
+	2.19 Section 19
+	--------------------------------------------------------------*/
+	@import "sections/style-19";
+
+	/*--------------------------------------------------------------
+	2.20 Section 20
+	--------------------------------------------------------------*/
+	@import "sections/style-20";
+
+	/*--------------------------------------------------------------
+	2.21 Misc Section
+	--------------------------------------------------------------*/
+	@import "sections/misc";

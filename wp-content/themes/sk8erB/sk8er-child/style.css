@@ -1,0 +1,29 @@
+/*
+Theme Name: Sk8er - iOS8 Inspired Multi-Purpose Parallax Theme Child Theme
+Theme URI: http://ava-themes.com/WP/
+Author: AVAThemes
+Author URI: http://themeforest.net/user/AVAThemes
+Description:
+Sk8er is an iOS8 Inspired Multi-Purpose Parallax WooCommerce enabled theme with a clean and professional design which will be a great solution for your business, portfolio, blog or any other purpose. Sk8er is a modern theme with fully responsive design. It has a wide range of features and comes with bunch of popular plugins such as Visual Composer and Revolution Slider.
+Generated at: http://generate.reduxframework.com/
+Version: 1.0
+License: GNU General Public License
+License URI: license.txt
+Text Domain: sk8er
+Tags: black, white, dark, light, red, one-column, responsive-layout, custom-background, custom-colors, custom-header, custom-menu, featured-image-header, flexible-header, post-formats, sticky-post, theme-options
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+Sk8er is based on Underscores http://underscores.me/, (C) 2012-2014 Automattic, Inc.
+
+Resetting and rebuilding styles have been helped along thanks to the fine work of
+Eric Meyer http://meyerweb.com/eric/tools/css/reset/index.html
+along with Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+and Blueprint http://www.blueprintcss.org/
+*/
+
+@import url("../sk8er/style.css");
+
+/* =Theme customization starts here
+------------------------------------------------------- */

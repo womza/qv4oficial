@@ -1,0 +1,10 @@
+/* Custom Style For VisualComposer Backend */
+
+/* We should hide these controls, user can mess up layout if they don't know what they do */
+/*a.column_add, a.column_edit, .vc_row_layouts {
+	display: none !important;
+}
+
+.controls_column a.column_add {
+	display: block !important;
+}*/

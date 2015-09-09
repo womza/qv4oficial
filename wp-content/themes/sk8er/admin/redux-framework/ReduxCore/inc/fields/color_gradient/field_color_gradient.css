@@ -1,0 +1,13 @@
+/* line 2, C:/wamp/www/Sk8er_Revision/wp-content/themes/sk8er/admin/redux-framework/ReduxCore/inc/fields/color_gradient/field_color_gradient.scss */
+.redux-container-color_gradient .colorGradient {
+  display: inline-block; }
+/* line 5, C:/wamp/www/Sk8er_Revision/wp-content/themes/sk8er/admin/redux-framework/ReduxCore/inc/fields/color_gradient/field_color_gradient.scss */
+.redux-container-color_gradient .toLabel {
+  padding-left: 18px; }
+
+@media screen and (max-width: 660px) {
+  /* line 12, C:/wamp/www/Sk8er_Revision/wp-content/themes/sk8er/admin/redux-framework/ReduxCore/inc/fields/color_gradient/field_color_gradient.scss */
+  .redux-container-color_gradient .colorGradient {
+    display: block;
+    text-align: center !important; }
+ }

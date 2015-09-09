@@ -1,0 +1,2011 @@
+<h1 id="redux-framework-changelog">Redux Framework Changelog</h1>
+<h2 id="3-5-4-13">3.5.4.13</h2>
+<ul>
+<li>Modified: Moved styling for the divide field into it&#39;s own CSS file.</li>
+<li>Modified: All WP Color Pickers to properly save the value before save.</li>
+<li>Added:    CSS Styles for the customizer.  ;)</li>
+</ul>
+<h2 id="3-5-4-12">3.5.4.12</h2>
+<ul>
+<li>Modified: Panel is MUCH more responsive now.</li>
+<li>Fixed:    Small stylings for a few fields.</li>
+<li>Fixed:    Added extra qTip class.</li>
+</ul>
+<h2 id="3-5-4-11">3.5.4.11</h2>
+<ul>
+<li>Modified: Ajax save animation. Added fallback for pre 4.2 CSS.</li>
+<li>Fixed:    Small issue with Redux info boxes and spacing.</li>
+<li>Fixed:    Small bug with the Redux API where divide sections were causing errors.</li>
+<li>Fixed:    Small admin blast fix.</li>
+</ul>
+<h2 id="3-5-4-10">3.5.4.10</h2>
+<ul>
+<li>Modified: Qtip and Spectrum vendor libraries restored to local.</li>
+<li>Fixed:    Admin notice loading on front end.</li>
+<li>Modified: Callback actions run with do_action_ref_array now.</li>
+<li>Added:    show_options_object argument to enable or disable option object.</li>
+</ul>
+<h2 id="3-5-4-9">3.5.4.9</h2>
+<ul>
+<li>Added:    Error suppressing to filesystem class to avoid notice errors when site goes down.</li>
+</ul>
+<h2 id="3-5-4-8">3.5.4.8</h2>
+<ul>
+<li>Fixed:    Panels not rendering, again</li>
+<li>Added:    Vendor support plugin link to CDN fallback message.</li>
+</ul>
+<h2 id="3-5-4-7">3.5.4.7</h2>
+<ul>
+<li>Modified: Moved vendor libraries ACE, select2, qtip, and spectrum to CDN.</li>
+<li>Removed:  Local installs of above libraries.</li>
+</ul>
+<h2 id="3-5-4-6">3.5.4.6</h2>
+<ul>
+<li>Fixed:    Option panel not rendering due to experimental code.</li>
+</ul>
+<h2 id="3-5-4-5">3.5.4.5</h2>
+<ul>
+<li>Fixed:    How sorter works with data</li>
+<li>Modified: How the data arg is stored in Redux.</li>
+</ul>
+<h2 id="3-5-4-4">3.5.4.4</h2>
+<ul>
+<li>Removed:  sysinfo.php.  No longer needed in lieu of our support URL feature.</li>
+<li>Removed:  debug.php.  Moved to options_object extension.</li>
+<li>Modified: #2274 - PHP Unit test compatibility.  Thanks @daithi-coombes.</li>
+<li>Modified: #2144 - Optional class argument per image.  Thanks @paulthecoder.</li>
+<li>Fixed:    #2278 - More W3 Total Cache hacks.</li>
+</ul>
+<h2 id="3-5-4-3">3.5.4.3</h2>
+<ul>
+<li>Fixed:    #2258 - welcome redirect error with embedding plugin scenarios.</li>
+<li>Fixed:    Redux plugin load order when activating plugins.</li>
+</ul>
+<h2 id="3-5-4-2">3.5.4.2</h2>
+<ul>
+<li>Fixed:    #2271 - stuck redirect on godaddy (seriously, get a real host, people) servers.</li>
+</ul>
+<h2 id="3-5-4-1">3.5.4.1</h2>
+<ul>
+<li>Fixed:    #2216 - Reset section not always working within FF.</li>
+</ul>
+<h2 id="3-5-4">3.5.4</h2>
+<ul>
+<li>Modified: update_notice arg only truly shows up if dev_mode is on.</li>
+</ul>
+<h2 id="3-5-3-3">3.5.3.3</h2>
+<ul>
+<li>Added:    Tooltip to developer mode badge, for informational purposes.</li>
+<li>Modified: Added css_layout ext to default value filter, to avoid errors.</li>
+</ul>
+<h2 id="3-5-3-2">3.5.3.2</h2>
+<ul>
+<li>Fixed:    #2239 - Various extensions didn&#39;t support default values for default arg.  Filtered out offending extensions.</li>
+</ul>
+<h2 id="3-5-3-1">3.5.3.1</h2>
+<ul>
+<li>Fixed:    WP.org ONLY SVN mixup.</li>
+</ul>
+<h2 id="3-5-3">3.5.3</h2>
+<ul>
+<li>Fixed:    #2228 - Submenu items still visible if permissions not allowed.</li>
+<li>Fixed:    Import/Export showing up in customizer.</li>
+<li>Modified: Admin-fresh theme to match new WordPress 4.2</li>
+<li>Modified: Redux widget now has a proper ID. Thanks @corradomatt!</li>
+<li>Modified: Added text-shadow to submenu items to give a stronger &quot;pop&quot;</li>
+<li>Modified: Page_slug now dynamically generated if not specified.</li>
+</ul>
+<h2 id="3-5-2-2">3.5.2.2</h2>
+<ul>
+<li>Modified: Admin blast message pinging server on each load after three day expiration.  Possible slow down of the overall panel loading time.</li>
+</ul>
+<h2 id="3-5-2-1">3.5.2.1</h2>
+<ul>
+<li>Fixed:   #2221 - Background field media not enqueueing when used with no other media based fields.</li>
+</ul>
+<h2 id="3-5-2">3.5.2</h2>
+<ul>
+<li>Fixed:   #2214: Bad path for import/export enqueue.</li>
+<li>Release: Wp.org release.</li>
+</ul>
+<h2 id="3-5-1">3.5.1</h2>
+<ul>
+<li>Release: Wp.org release.</li>
+</ul>
+<h2 id="3-5-0-7">3.5.0.7</h2>
+<ul>
+<li>Modified: Redux News dashboard widget appears only when dev_mode is true or in a local host environment.</li>
+</ul>
+<h2 id="3-5-0-6">3.5.0.6</h2>
+<ul>
+<li>Fixed     #2127 - Elusive icons not working in footer as before.</li>
+<li>Fixed     Issue where Status tab not showing extension versions properly.</li>
+<li>Fixed     Issue in support URL not passing data correctly.</li>
+</ul>
+<h2 id="3-5-0-5">3.5.0.5</h2>
+<ul>
+<li>Fixed     Support URLs now work even if max_input_vars is way low in PHP 5.3+</li>
+</ul>
+<h2 id="3-5-0-4">3.5.0.4</h2>
+<ul>
+<li>Fixed     #2197 - Import/export not loading proper for those who have opted to install Wordpress in ways it was never intended.</li>
+</ul>
+<h2 id="3-5-0-3">3.5.0.3</h2>
+<ul>
+<li>Fixed:    &#39;Generate Support URL&#39; feature kicking back error. </li>
+</ul>
+<h2 id="3-5-0-2">3.5.0.2</h2>
+<ul>
+<li>Fixed     Sortable checkbox labels not displaying properly.</li>
+<li>Fixed     Sortable textbox not displaying default value as placeholder.</li>
+<li>Updated:  sample-config with accurate example for both sortable modes.</li>
+</ul>
+<h2 id="3-5-0-1">3.5.0.1</h2>
+<ul>
+<li>Fixed     #2181 - Fixed issue with Ajax Save when PHP 5.3 Magic Quotes were disabled.</li>
+</ul>
+<h2 id="3-5-0-official-release">3.5.0     OFFICIAL RELEASE</h2>
+<pre><code>        Various fixes and improvements for release.
+</code></pre><h2 id="3-4-4-9-4">3.4.4.9.4</h2>
+<ul>
+<li>Fixed:    #2181 - Issue with PHP &lt; 5.4 and the Ace Editor field. Oy.</li>
+</ul>
+<h2 id="3-4-4-9-3">3.4.4.9.3</h2>
+<ul>
+<li>Fixed:    #2163 - Undefined error in JS.</li>
+</ul>
+<h2 id="3-4-4-9-2">3.4.4.9.2</h2>
+<ul>
+<li>Fixed:    #2176 - Infinite loop in the customizer for live preview of themes.</li>
+</ul>
+<h2 id="3-4-4-9-1">3.4.4.9.1</h2>
+<ul>
+<li>Fixed:    Support page now works.</li>
+<li>Fixed:    Fix for MySQL deprecated functions in php 5.5+.</li>
+</ul>
+<h2 id="3-4-4-9">3.4.4.9</h2>
+<ul>
+<li>Added:    Dynamic admin messages (aka Newsflash).  Dismissable admin messages announcing breaking Redux news.<pre><code>      Messages will not appear for users when dev_mode is set to `false`.  However, messages remain active
+      on localhosts, so devs may benefit.
+</code></pre></li>
+</ul>
+<h2 id="3-4-4-8">3.4.4.8</h2>
+<ul>
+<li>Fixed:    #2155 - Fixed import with ajax_save.</li>
+<li>Fixed:    Changelog now uses raw field parsedown if present.</li>
+</ul>
+<h2 id="3-4-4-7">3.4.4.7</h2>
+<ul>
+<li>Added:    Redux Framework News Widget on the WP Dashboard.</li>
+</ul>
+<h2 id="3-4-4-6">3.4.4.6</h2>
+<ul>
+<li>Fixed:    #2156: <code>label</code> argument not recognized when using sortable as textbox.</li>
+</ul>
+<h2 id="3-4-4-5">3.4.4.5</h2>
+<ul>
+<li>Fixed:    #2140 Another PHP 5.2 issue with ajax_save.</li>
+<li>Modified: Opt groups for select field now working in customizer even if not supported.</li>
+</ul>
+<h2 id="3-4-4-4">3.4.4.4</h2>
+<ul>
+<li>Added:    <code>full_width</code> arg now makes ANY field full-width.  :)</li>
+</ul>
+<h2 id="3-4-4-3">3.4.4.3</h2>
+<ul>
+<li>Fixed:    #2133 - Ajax save adding extra backspashes in PHP 5.2 only (They didn&#39;t use array map properly).</li>
+<li>Fixed:    Customizer wasn&#39;t working. Thanks @sgssandhu!</li>
+</ul>
+<h2 id="3-4-4-2">3.4.4.2</h2>
+<ul>
+<li>Fixed:    #2125 - Compiler not firing on first save, when using ajax_save.</li>
+</ul>
+<h2 id="3-4-4-1">3.4.4.1</h2>
+<ul>
+<li>Fixed:    #2118 - Typography JS error.</li>
+</ul>
+<h2 id="3-4-4">3.4.4</h2>
+<ul>
+<li>Fixed:    Odd typography bug no one has reported.</li>
+<li>Modified: Sticky header and footer to remain within the redux-main container.</li>
+</ul>
+<h2 id="3-4-3-9">3.4.3.9</h2>
+<ul>
+<li>Fixed     #2097 - Slash fix for ajax_save that was previously believed to be an isolated issue. Now applied on all ajax saves.</li>
+</ul>
+<h2 id="3-4-3-8">3.4.3.8</h2>
+<ul>
+<li>Fixed:    #2086 - color_rgba improperly functioning when transparent mode set to false.</li>
+</ul>
+<h2 id="3-4-3-7">3.4.3.7</h2>
+<ul>
+<li>Fixed     Import/Export bug where it wasn&#39;t running.</li>
+<li>Modified  Locations of the core extensions directory as well as grunt configuration.</li>
+</ul>
+<h2 id="3-4-3-6">3.4.3.6</h2>
+<ul>
+<li>Fixed     #2047 - Validation will now accept 0 as a value to be tested. Thanks @Ninos!</li>
+<li>Added     url_slug validation with option flush_permalinks!</li>
+<li>Fixed     Issue where the remove of background field was always showing an empty preview box. </li>
+<li>Modified  Turned ajax_save on by default for additional bug reports.  ;)</li>
+<li>Modified  Added some margin above validation errors/warnings so they look better.</li>
+<li>Modified  Removed previous element border for any section so it looks better.</li>
+</ul>
+<h2 id="3-4-3-5">3.4.3.5</h2>
+<ul>
+<li>Fixed     #2081 - Section field hiding any field after.  Weird.</li>
+</ul>
+<h2 id="3-4-3-4">3.4.3.4</h2>
+<ul>
+<li>Added     #2047 - <code>output_transparent</code> argument to output the blank color feature as &#39;transparent&#39;.</li>
+<li>Fixed     #2080 - missing &#39;rem&#39; unit and inability to process float values.  Thanks to @HELWATANY for the fixes!</li>
+<li>Fixed     #2043 - misaligned images in image_select field.</li>
+</ul>
+<h2 id="3-4-3-3">3.4.3.3</h2>
+<ul>
+<li>Added:    #2064 - Merge argument for image_select. Thanks @Ninos</li>
+<li>Modified: Import/Export is now an extensiona and decoupled from the core.</li>
+<li>Fixed:    Spinner had a nasty number bug, now resolved.</li>
+<li>Fixed:    #2076 - RTL bug with old ID&#39;s. Thanks @mahfoozroy.</li>
+<li>Fixed:    #2072 - Ajax_save editor type bug fix.</li>
+</ul>
+<h2 id="3-4-3-2">3.4.3.2</h2>
+<ul>
+<li>Fixed:    #2058 - Incorrect path in include statement for sysinfo.php</li>
+</ul>
+<h2 id="3-4-3-1">3.4.3.1</h2>
+<ul>
+<li>Modified: Templates now have versioning with a warning (dev_mode only) if they are outdated from the core templates.</li>
+</ul>
+<h2 id="3-4-3">3.4.3</h2>
+<ul>
+<li>Modified: Ajax saving now has overlay during save to avoid confusion for users.</li>
+</ul>
+<h2 id="3-4-2-9">3.4.2.9</h2>
+<ul>
+<li>Modified: Template files even more for simplicity and ease.</li>
+<li>Modified: Saving. Redux now has the ajax_save argument if you want it!</li>
+<li>Modified: Validation warnings now work.</li>
+</ul>
+<h2 id="3-4-2-8">3.4.2.8</h2>
+<ul>
+<li>Fixed:    Changed set_transient function to public to avoid errors in new templating code.</li>
+</ul>
+<h2 id="3-4-2-7">3.4.2.7</h2>
+<ul>
+<li>Modified: Entire panel template is now decoupled from the theme and implemented with many filters for easy customization.</li>
+</ul>
+<h2 id="3-4-2-6">3.4.2.6</h2>
+<ul>
+<li>Fixed:   #1478 - Import/export failing when two instances if Redux in use.  Thanks, @desaiuditd!</li>
+<li>Fixed:   Section field not indenting properly, if at all.</li>
+</ul>
+<h2 id="3-4-2-5">3.4.2.5</h2>
+<ul>
+<li>Added:   #2031 - Proper CSS sanitization for compliancy with WP.org. </li>
+</ul>
+<h2 id="3-4-2-4">3.4.2.4</h2>
+<ul>
+<li>Fixed:   #2027 - added isset()</li>
+</ul>
+<h2 id="3-4-2-3">3.4.2.3</h2>
+<ul>
+<li>Fixed:   #2019 - Reset issues with PHP 5.2.  Thanks a bunch, @Webcreations907!</li>
+</ul>
+<h2 id="3-4-2-2">3.4.2.2</h2>
+<ul>
+<li>Fixed:   #2023: Issue with custom submenus in menu.</li>
+</ul>
+<h2 id="3-4-2-1">3.4.2.1</h2>
+<ul>
+<li>Fixed:   #2025: Issue with select sorting.</li>
+</ul>
+<h2 id="3-4-2">3.4.2</h2>
+<ul>
+<li>Update:  ACE Editor.  Thanks @corradomatt.</li>
+</ul>
+<h2 id="3-4-1">3.4.1</h2>
+<ul>
+<li>Fixed:   Small filesystem option with bad filter key reference.</li>
+<li>Added:   Small return if $section filter returned the section empty.</li>
+</ul>
+<h2 id="3-4-0">3.4.0</h2>
+<ul>
+<li>WP.org Release</li>
+</ul>
+<h2 id="3-3-10-7">3.3.10.7</h2>
+<ul>
+<li>Fixed:    Reset section hook firing too early.</li>
+</ul>
+<h2 id="3-3-10-6">3.3.10.6</h2>
+<ul>
+<li>Modified: The Redux Repeater field has landed!</li>
+</ul>
+<h2 id="3-3-10-5">3.3.10.5</h2>
+<ul>
+<li>Fixed:    #1983 - color_rgba not outputting default values on first load (before save).</li>
+</ul>
+<h2 id="3-3-10-4">3.3.10.4</h2>
+<ul>
+<li>Fixed:    Google font enqueues with opt_name to avoid collision with multiple Redux instances.</li>
+</ul>
+<h2 id="3-3-10-3">3.3.10.3</h2>
+<ul>
+<li>Fixed:    #1980 - JS errors with sorter &amp; sortable.</li>
+<li>Fixed:    color_rgba field outputting incorrect information via output/compiler.</li>
+</ul>
+<h2 id="3-3-10-2">3.3.10.2</h2>
+<ul>
+<li>Fixed:    #1979 - Goole fonts not properly loading in typography dropdown.</li>
+</ul>
+<h2 id="3-3-10-1">3.3.10.1</h2>
+<ul>
+<li>Fixed:    Undefined index error on MU installs.</li>
+</ul>
+<h2 id="3-3-10">3.3.10</h2>
+<ul>
+<li>Removed:  SASS compile of field CSS, for the time being.  Compiler remains in core.</li>
+<li>Improved: Panel load time, most notable when not in dev_mode.  Better for your clients.  :)</li>
+<li>Updated:  Elusive Font library.</li>
+<li>Fixed:    #1961 - color_rgba field defaulting to black on reset.</li>
+</ul>
+<h2 id="3-3-9-35">3.3.9.35</h2>
+<ul>
+<li>Fixed:    #1941 - Datepicker opened off screen.</li>
+<li>Fixed:    #1756, #1957 - Slider issues.  Thanks @FFIN!</li>
+<li>Fixed:    #1960 - Duplicate slide when clicking Add.  Again, thanks to @FFIN for the fix.</li>
+<li>Added:    New filter: apply_filters &#39;redux/validate/{opt_name}/before_validation&#39;</li>
+<li>Fixed:    #1745 - Adding settings submenu to empty submenu now works.  Many, many thanks to @No3x for cracking this one!</li>
+</ul>
+<h2 id="3-3-9-34">3.3.9.34</h2>
+<ul>
+<li>Fixed:    #1955 - Undefined index rgba in output routine.</li>
+</ul>
+<h2 id="3-3-9-33">3.3.9.33</h2>
+<ul>
+<li>Modified: #1947 - Added display:none to TR tag under info field.</li>
+</ul>
+<h2 id="3-3-9-32">3.3.9.32</h2>
+<ul>
+<li>Replaced: #1951 - Replaced develop branch of scssphp to master branch due to PHP 5.2 incompatibililty.</li>
+</ul>
+<h2 id="3-3-9-31">3.3.9.31</h2>
+<ul>
+<li>Fixed:    #1943 - Removed premature DIV close.</li>
+<li>Fixed:    #1945 - Media preview not rendering when default ID specified.</li>
+</ul>
+<h2 id="3-3-9-30">3.3.9.30</h2>
+<ul>
+<li>Modified: #1930 - reorder &#39;psedo-class of link_color field.  Thanks @freddessaint</li>
+<li>Modified: SASS compiler outputs to page by default.  Faster.</li>
+<li>Fixed:    #1927 - Incorrect dir path to spectrum library in color_rgba field corrected.</li>
+</ul>
+<h2 id="3-3-9-29">3.3.9.29</h2>
+<ul>
+<li>Modified: color_rgba field now usees spectrum color picker.  minicolors removed.  Just...too buggy.</li>
+</ul>
+<h2 id="3-3-9-28">3.3.9.28</h2>
+<ul>
+<li>Modified: #1922 - Filesystem output function.</li>
+</ul>
+<h2 id="3-3-9-27">3.3.9.27</h2>
+<ul>
+<li>Fixed:    Added PHP 5.2 support (ugh!) for SASS compiler.</li>
+</ul>
+<h2 id="3-3-9-26">3.3.9.26</h2>
+<ul>
+<li>Fixed:    More SASS compiler tweaking.</li>
+</ul>
+<h2 id="3-3-9-25">3.3.9.25</h2>
+<ul>
+<li>Fixed:    PHP errors when disabling SASS.</li>
+</ul>
+<h2 id="3-3-9-24">3.3.9.24</h2>
+<ul>
+<li>Fixed     #1909 - malformed DIV class HTML in slider field.</li>
+</ul>
+<h2 id="3-3-9-23">3.3.9.23</h2>
+<ul>
+<li>Removed   Argument for SASS compile file output location removed.  Didn&#39;t work, too much trouble.</li>
+</ul>
+<h2 id="3-3-9-22">3.3.9.22</h2>
+<ul>
+<li>Fixed:    #1904 - select_image field not displaying saved value on page reload.</li>
+</ul>
+<h2 id="3-3-9-21">3.3.9.21</h2>
+<ul>
+<li>Fixed:    SASS compile under multi-instance outputting incorrect CSS file</li>
+</ul>
+<h2 id="3-3-9-20">3.3.9.20</h2>
+<ul>
+<li>Fixed:    redux-admin scss images converted to base64     </li>
+</ul>
+<h2 id="3-3-9-17">3.3.9.17</h2>
+<ul>
+<li>Added     SASS compiler for admin CSS.</li>
+<li>Added     SASS to CSS for grunt compiler.</li>
+</ul>
+<h2 id="3-3-9-16">3.3.9.16</h2>
+<ul>
+<li>Added     SASS compiler for fields.</li>
+</ul>
+<h2 id="3-3-9-16">3.3.9.16</h2>
+<ul>
+<li>Updated:  select2 3.5.2</li>
+</ul>
+<h2 id="3-3-9-15">3.3.9.15</h2>
+<ul>
+<li>Fixed:    #1856 - Illegal offset string warnings in framework.php.  Thanks @CGlingener.</li>
+<li>Fixed:    #1874 - Required operator &#39;contains&#39; and &#39;not_contains&#39; not working with select set to multi.</li>
+<li>Fixed:    #1829 - Required operator &#39;=&#39; and &#39;!=&#39; not working with select set to multi.</li>
+</ul>
+<h2 id="3-3-9-14">3.3.9.14</h2>
+<ul>
+<li>Fixed:    #1870 - Border field doubling up on px in output/compiler.</li>
+<li>Added:    <code>hidden</code> argument for fields.</li>
+<li>Added:    <code>hidden</code> argument for sections.</li>
+</ul>
+<h2 id="3-3-9-12">3.3.9.12</h2>
+<ul>
+<li>Fixed:    #1868 - Improper panel render when opening expanded, when <code>open_expanded</code> set to true.</li>
+<li>Added:    <code>hide_expand</code> argument, to hide the expand options button.</li>
+</ul>
+<h2 id="3-3-9-11">3.3.9.11</h2>
+<ul>
+<li>Fixed:    #1865 - Sortable select not saving proper order.</li>
+<li>Fixed:    #1864 - Footer z-index CSS adjusted.</li>
+</ul>
+<h2 id="3-3-9-10">3.3.9.10</h2>
+<ul>
+<li>Fixed:    #1848 - Import-export filed buttons not functioning properly.</li>
+</ul>
+<h2 id="3-3-9-9">3.3.9.9</h2>
+<ul>
+<li>Fixed:    #1834 - Wordpress data dealing with IDs as array keys not rendering properly.</li>
+<li>Fixed:    #1830 - Font lists were added in quotes.  Thanks @karimhossenbux.</li>
+</ul>
+<h2 id="3-3-9-8">3.3.9.8</h2>
+<ul>
+<li>Fixed:    #1798 - Fixed lazy load JS to only load visible sections. Much more optimized.</li>
+</ul>
+<h2 id="3-3-9-7">3.3.9.7</h2>
+<ul>
+<li>Fixed:    #1821 -  Exo 2 font not working, issue with typography and escaping.</li>
+</ul>
+<h2 id="3-3-9-6">3.3.9.6</h2>
+<ul>
+<li>Added:    #1803 - Optgroup support for select field.</li>
+</ul>
+<h2 id="3-3-9-5">3.3.9.5</h2>
+<ul>
+<li>Added:    Decimal increments to spinner.</li>
+</ul>
+<h2 id="3-3-9-4">3.3.9.4</h2>
+<ul>
+<li>Added:    Customizer now supports PANEL! Yay 4.0.</li>
+</ul>
+<h2 id="3-3-9-3">3.3.9.3</h2>
+<ul>
+<li>Fixed:    #1789 - Customizer now properly working again with WP 4.0. Odd bug.</li>
+<li>Modified: README.md updates as per @cmwwebfx suggestions.</li>
+</ul>
+<h2 id="3-3-9-2">3.3.9.2</h2>
+<ul>
+<li>Fixed:    #1782 - Fixed some extra themecheck and customizer issues.</li>
+</ul>
+<h2 id="3-3-9-1">3.3.9.1</h2>
+<ul>
+<li>Fixed:    #1782 - Media field not showing files after upload?  Hopefully this fixes it.</li>
+</ul>
+<h2 id="3-3-9">3.3.9</h2>
+<ul>
+<li>Fixed:    #1775 - Call to undefined function is_customize_preview() in pre WP 4.0.</li>
+<li>Fixed:    Issue where in some cases tracking still occuring after opt-out.</li>
+<li>Modified: Documentation URL.</li>
+</ul>
+<h2 id="3-3-8-8">3.3.8.8</h2>
+<ul>
+<li>Fixed:    #1742 - Sidebar subsections don&#39;t always expand.</li>
+</ul>
+<h2 id="3-3-8-7">3.3.8.7</h2>
+<ul>
+<li>Fixed:    #1758 - Thanks @echo1consulting!</li>
+<li>Added:    &#39;hidden&#39; to menu_type argument to allow for hidden menus until available.</li>
+</ul>
+<h2 id="3-3-8-6">3.3.8.6</h2>
+<ul>
+<li>Fixed:    #1749 - Remove font-wight and font-style from css output when not in use.</li>
+</ul>
+<h2 id="3-3-8-5">3.3.8.5</h2>
+<ul>
+<li>Modified: Added the &quot;redux/options/{$this-&gt;args[&#39;opt_name&#39;]}/compiler/advanced&quot; hook for more advanced compiling.</li>
+<li>Added:    Suggestions as per #1709. Thanks @echo1consulting.</li>
+</ul>
+<h2 id="3-3-8-4">3.3.8.4</h2>
+<ul>
+<li>Modified: Removed a cURL instance from the core and fixed the developer ad resizing.</li>
+<li>Fixed: PHP 5.2 issues. <em>sigh</em></li>
+</ul>
+<h2 id="3-3-8-3">3.3.8.3</h2>
+<ul>
+<li>Added:   #1593 - Great pull request by @JonasDoebertin. Now you can enqueue dynamic output to the login screen or admin backend.</li>
+</ul>
+<h2 id="3-3-8-2">3.3.8.2</h2>
+<ul>
+<li>Fixed:   Customizer wasn&#39;t saving at all! That&#39;s been like 4 months. No one&#39;s reported it. Hmm.</li>
+<li>Fixed: #1702 - Customizer only fields were being erased on panel save.</li>
+</ul>
+<h2 id="3-3-8-1">3.3.8.1</h2>
+<ul>
+<li>Fixed:   Various Theme-Check errors with languages.</li>
+<li>Added: Theme-Check class to help devs know what is what.</li>
+<li>Fixed: The way we include files from include_once to require_once everywhere.</li>
+<li>Modified: Language files to reflect new strings.</li>
+<li>Modified: Formatted a bunch of old class files.</li>
+<li>Added: Notice on the updates for non-devs to use the new dev_mode disabler plugin and notify their developer.  ;)</li>
+</ul>
+<h2 id="3-3-8">3.3.8</h2>
+<ul>
+<li>Modified:   Updated potomo, thanks @shivapoudel.</li>
+<li>Added: Grunt checktextdomain and made improvements. Thanks @shivapoudel.</li>
+</ul>
+<h2 id="3-3-7-11">3.3.7.11</h2>
+<ul>
+<li>Modified:   #1685 - Specifying no default argument for image_select caused errors on reset.</li>
+</ul>
+<h2 id="3-3-7-10">3.3.7.10</h2>
+<ul>
+<li>Fixed:      #1667 - Slides Upload button causing JS error.</li>
+</ul>
+<h2 id="3-3-7-9">3.3.7.9</h2>
+<ul>
+<li>Fixed: #1670 - Fix for Theme Check -&gt; <code>add_setting() method needs to have a sanitization callback function passed.</code></li>
+</ul>
+<h2 id="3-3-7-8">3.3.7.8</h2>
+<ul>
+<li>Fixed:  #1661 - Fix for undefined index in some versions of PHP. Thanks @gianbalex!</li>
+<li>Modified: #1658 - Improvements from @shivapoudel, including:<ul>
+<li>Removed makepot and used grunt-wp-i18n instead.</li>
+<li>Added a jshintrc file</li>
+<li>Added a <code>grunt addtextdomain</code> to correct any bad textdomains in the core.</li>
+<li>Updated .gitignore for better readability</li>
+<li>Updates to a few other files including package.json.</li>
+<li>Updated language files.</li>
+<li>Update codestyles/.editorconfig to reflect the project&#39;s standards.</li>
+</ul>
+</li>
+</ul>
+<h2 id="3-3-7-7">3.3.7.7</h2>
+<ul>
+<li>Modified:  #1653 - Better admin bar with external links: Admin bar menu priority, icon, and external links. Thanks @shivapoudel!</li>
+</ul>
+<h2 id="3-3-7-6">3.3.7.6</h2>
+<ul>
+<li>Added:      #1651 - <code>library_filter</code> argument.  Allows specification of what files to display in the media library.</li>
+<li>Modified:   #1651 - <code>mode</code> argument accepts either file type or mime type (but not both).</li>
+</ul>
+<h2 id="3-3-7-5">3.3.7.5</h2>
+<ul>
+<li>Fixed:      #1650 - Toogle error with responsive CSS.</li>
+</ul>
+<h2 id="3-3-7-4">3.3.7.4</h2>
+<ul>
+<li>Fixed:      #1643 - Slight border issue (2px) on sticky footer.</li>
+</ul>
+<h2 id="3-3-7-3">3.3.7.3</h2>
+<ul>
+<li>Fixed:      #1642 - Added <code>font_family_clear</code> arg, enabling the clear option for font-family.</li>
+<li>Fixed:      #1638 - Spacing field not outputting when units values attached to default values.</li>
+<li>Modified    #1644 - <code>import_icon</code> argument now accepts wordpress dashicons</li>
+</ul>
+<h2 id="3-3-7-2">3.3.7.2</h2>
+<ul>
+<li>Fixed:      #1634 - Double border for sections field. Thanks @AlexandruDoda</li>
+<li>Modified:   Changelog location to now Changelog.md.</li>
+</ul>
+<h2 id="3-3-7-1">3.3.7.1</h2>
+<ul>
+<li>Fixed:      #1632 - Sortable with no defaults set revert to false (instead of options values).</li>
+<li>Fixed:      Labels for sortable in text mode updated to match framework.</li>
+</ul>
+<h2 id="3-3-7">3.3.7</h2>
+<ul>
+<li>Added:      #1586 - Class-level declaration for callbacks and validation. Thanks @echo1consulting.</li>
+<li>Modified:   Typography field now fully dynamic.</li>
+<li>Modified:   No longer require a google_api_key for the typography module.  :)</li>
+<li>Fixed:      FTP credentials screen giving a &quot;undefined submit_button function&quot;. Resolved.</li>
+<li>Modified:   #1628 - Spacing and dimensions now only output 0 if the entry is a 0, not empty.<pre><code>        Thanks @Webcreations907
+</code></pre></li>
+<li>Modified:   CSS for menu items when active (no hover).</li>
+<li>Added:      Visual feedback to left menu if active.</li>
+</ul>
+<h2 id="3-3-6-9">3.3.6.9</h2>
+<ul>
+<li>Fixed:      #1623 - Registered older noUISlider JS under a new name to avoid conflicts.</li>
+<li>Modified:   #1622 - Removed googlefonts.js dependency.</li>
+</ul>
+<h2 id="3-3-6-8">3.3.6.8</h2>
+<ul>
+<li>Fixed:      #1600 - ACE Editor bombing in PHP 5.2 environments.</li>
+</ul>
+<h2 id="3-3-6-7">3.3.6.7</h2>
+<ul>
+<li>Fixed:      #1591 - Erroneous outputting of font-weight and font-style when no font-family selected.</li>
+<li>Updated:    #1569 - Improved submenu highlighting.</li>
+<li>Added:      #1487 - Added <code>get_default_value</code> function into the framework.php</li>
+</ul>
+<h2 id="3-3-6-6">3.3.6.6</h2>
+<ul>
+<li>Fixed:      Framework URI errors when using child themes. Some restructuring.</li>
+</ul>
+<h2 id="3-3-6-5">3.3.6.5</h2>
+<ul>
+<li>Fixed:      Framework URI errors when embedded in theme with Windows.</li>
+</ul>
+<h2 id="3-3-6-4">3.3.6.4</h2>
+<ul>
+<li>Added:      image_size as an option for the data argument. Thanks @Gyroscopic!</li>
+</ul>
+<h2 id="3-3-6-3">3.3.6.3</h2>
+<ul>
+<li>Modified:   How Redux paths are run. Should cover all use cases now. Child themes can also embed <pre><code>        Redux properly now. Thanks @cfoellmann for the suggestions. Fix for issue #1566.
+</code></pre></li>
+</ul>
+<h2 id="3-3-6-2">3.3.6.2</h2>
+<ul>
+<li>Modified:   How we declare the uploads directory and URL. Using core WP functions now.</li>
+</ul>
+<h2 id="3-3-6-1">3.3.6.1</h2>
+<ul>
+<li>Modified:   Now if a section is empty, but has subsections, that section will be &quot;skipped&quot; when <pre><code>        clicked and the first subsection will then be shown.
+</code></pre></li>
+</ul>
+<h2 id="3-3-6">3.3.6</h2>
+<ul>
+<li>Modified:   Language files.</li>
+<li>Fixed:      #1560 - IE8 RGBA fallack</li>
+</ul>
+<h2 id="3-3-5-12">3.3.5.12</h2>
+<ul>
+<li>Fixed:      #1543 - Hint icon not changing when set in args.</li>
+</ul>
+<h2 id="3-3-5-11">3.3.5.11</h2>
+<ul>
+<li>Fixed:      #1537 - Media field not accepting images with mode set to false.</li>
+</ul>
+<h2 id="3-3-5-10">3.3.5.10</h2>
+<ul>
+<li>Fixed:      #1529 - ACE Editor conflict with Visual Composer.</li>
+<li>Added:      #1530 - Added argument to specify admin bar icon, <code>admin_bar_icon</code>.  Thanks Ninos!</li>
+<li>Fixed:      #1532 - Media field not accepting any mime type when <code>&#39;mode&#39; =&gt; false</code>.</li>
+</ul>
+<h2 id="3-3-5-9">3.3.5.9</h2>
+<ul>
+<li>Fixed:      #1520 - Checkbox field not displaying Wordpress data when using data argument.</li>
+</ul>
+<h2 id="3-3-5-8">3.3.5.8</h2>
+<ul>
+<li>Fixed:      #1516 - Invalid index and foreach when using compiler and async_typography.</li>
+</ul>
+<h2 id="3-3-5-7">3.3.5.7</h2>
+<ul>
+<li>Fixed:      #1509 - Sorter adding unnecessary bits on some items.</li>
+<li>Fixed:      #1514 - Customizer and multisite not getting on properly.</li>
+<li>Fixed:      #1512 - Slides &#39;Upload&#39; button not showing or saving selected image.</li>
+</ul>
+<h2 id="3-3-5-6">3.3.5.6</h2>
+<ul>
+<li>Fixed:      Checkboxes with required were working in reverse.</li>
+</ul>
+<h2 id="3-3-5-5">3.3.5.5</h2>
+<ul>
+<li>Fixed:      ASync Typography now works! No more flashing fonts.</li>
+</ul>
+<h2 id="3-3-5-4">3.3.5.4</h2>
+<ul>
+<li>Fixed:      #1489 - Color picker UI lining up improperly.</li>
+<li>Fixed:      #1497 - dev_mode spinner issue.</li>
+</ul>
+<h2 id="3-3-5-3">3.3.5.3</h2>
+<ul>
+<li>Fixed:      Spelling error in tracking dialog.</li>
+<li>Modified:   Updated ace_editor.</li>
+<li>Modified:   Many MANY fields for the group field.</li>
+<li>Fixed:      Some CSS bugs.</li>
+</ul>
+<h2 id="3-3-5-2">3.3.5.2</h2>
+<ul>
+<li>Fixed:      #1481 - Custom fonts loading in google font CSS.</li>
+<li>Fixed:      #1485 - Customizer &#39;invalid argument&#39; error.  Thanks @rnlmedia.</li>
+</ul>
+<h2 id="3-3-5-1">3.3.5.1</h2>
+<ul>
+<li>Fixed:      #1472 - font style not displaying saved valie with no font-family argument set.</li>
+<li>Fixed:      #1471 - raw field and required not playing nice together.</li>
+</ul>
+<h2 id="3-3-5">3.3.5</h2>
+<ul>
+<li>Added:      An annoying notice at the top so our devs don&#39;t ship with dev_mode on.  ;)</li>
+</ul>
+<h2 id="3-3-4-9">3.3.4.9</h2>
+<ul>
+<li>Fixed:      #1462 - Google fonts not loading in font drop down.</li>
+</ul>
+<h2 id="3-3-4-8">3.3.4.8</h2>
+<ul>
+<li>Fixed:      More WP FileSystem tanking. Did PHP fallback before FTP. Works 99.9% of the time without credentials.</li>
+</ul>
+<h2 id="3-3-4-7">3.3.4.7</h2>
+<ul>
+<li>Fixed:      Incorrect folder CHMOD in filesystem class.</li>
+</ul>
+<h2 id="3-3-4-6">3.3.4.6</h2>
+<ul>
+<li>Fixed:      #1454 - Chmod permissions for redux folder.</li>
+</ul>
+<h2 id="3-3-4-5">3.3.4.5</h2>
+<ul>
+<li>Fixed:      #1451 - Googlefonts not loading due to failing copy function.</li>
+</ul>
+<h2 id="3-3-4-4">3.3.4.4</h2>
+<ul>
+<li>Fixed:      #1450 - Saves witch values with no <code>on</code> or <code>off</code> args make the core unhappy.</li>
+</ul>
+<h2 id="3-3-4-3">3.3.4.3</h2>
+<ul>
+<li>Fixed:      #1444, again, due to filesystem growing pains.</li>
+<li>Fixed:      #1449 - Restoring <code>options</code> argument over a lousy attempt to fix placeholder.</li>
+</ul>
+<h2 id="3-3-4-2">3.3.4.2</h2>
+<ul>
+<li>Fixed:      More file permission issues.</li>
+</ul>
+<h2 id="3-3-4-1">3.3.4.1</h2>
+<ul>
+<li>Fixed:      Font debug was left from last commit. Sorry all.</li>
+</ul>
+<h2 id="3-3-3-8">3.3.3.8</h2>
+<ul>
+<li>Fixed:      Issues with file writing. Basically many users don&#39;t install WordPress with all the permissions correct. <pre><code>        So... Had to move it back to /uploads/. Sorry Otto, that&#39;s just how it is.
+</code></pre></li>
+<li>Fixed:      #1444 - output of typography all_styles when font_style UI was hidden.              </li>
+</ul>
+<h2 id="3-3-3-7">3.3.3.7</h2>
+<ul>
+<li>Fixed:      #1440 - flaw in new cleanFilePath logic.</li>
+</ul>
+<h2 id="3-3-3-6">3.3.3.6</h2>
+<ul>
+<li>Fixed:      #1432 - Theme check failing when double-slashes existed in get_template_directory() return.</li>
+<li>Removed:    curlRead from helper class.</li>
+</ul>
+<h2 id="3-3-3-5">3.3.3.5</h2>
+<ul>
+<li>Fixed:      #1426 - menu_name not appearing on front end admin bar.</li>
+<li>Added:      #1427 - button_set added to customizer UI.  Thanks @wpexplorer.</li>
+</ul>
+<h2 id="3-3-3-4">3.3.3.4</h2>
+<ul>
+<li>Fixed:      #1429 - ACE Editor erroring with no default value set.</li>
+<li>Fixed:      wp_filesystem now initialized with credentials in an effort to combat the tmp file issue.</li>
+</ul>
+<h2 id="3-3-3-3">3.3.3.3</h2>
+<ul>
+<li>Modified:   Code purification.</li>
+</ul>
+<h2 id="3-3-3-2">3.3.3.2</h2>
+<ul>
+<li>Modified:   How section tabs work. Isolated within the redux-container class.</li>
+</ul>
+<h2 id="3-3-3">3.3.3</h2>
+<ul>
+<li>Modified:   #1412 - Redesigned text label, placeholder fix.</li>
+</ul>
+<h2 id="3-3-2-10">3.3.2.10</h2>
+<ul>
+<li>Fixed:      #1408 &amp; #1357 - Typography subsets losing value after multiple saves <pre><code>        on other panels.
+</code></pre></li>
+</ul>
+<h2 id="3-3-2-9">3.3.2.9</h2>
+<ul>
+<li>Fixed:      #1403 - unit value no longer prints after empty typography values</li>
+<li>Modified:   Typography: Backup font no longer appends to <code>font-family</code> variable.  <pre><code>        Please use the `backup-font` variable to specify backup fonts.  This 
+        does not apply to output/compiler strings.
+</code></pre></li>
+</ul>
+<h2 id="3-3-2-8">3.3.2.8</h2>
+<ul>
+<li>Fixed:      #1403 - Backup font not appearing in font-family variable.</li>
+</ul>
+<h2 id="3-3-2-7">3.3.2.7</h2>
+<ul>
+<li>Modified:   Customizer now supports section and field <code>permissions</code> argument.</li>
+<li>Fixed:      #1399 - Customizer respects <code>page_permissions</code> argument.</li>
+</ul>
+<h2 id="3-3-2-6">3.3.2.6</h2>
+<ul>
+<li>Fixed:      #1400 - output/compiler string incomplete using multiple selectors.</li>
+</ul>
+<h2 id="3-3-2-5">3.3.2.5</h2>
+<ul>
+<li>Fixed:      #1396 - Custom fonts cutting off multiple families in selector, after save.</li>
+<li>Fixed:      Typography attempting to queue up non google fonts on backend.</li>
+<li>Added:      #1395 - Display of child theme status in sysinfo, thanks @SiR-DanieL.</li>
+</ul>
+<h2 id="3-3-2-4">3.3.2.4</h2>
+<ul>
+<li>Fixed:      #1387 - Page jump when clicking &quot;Options Object&quot;.  Thanks @rrikesh.</li>
+<li>Added:      #1392 - Filters to change the following localized strings:<pre><code>        redux/{opt_name}/localize/reset
+        redux/{opt_name}/localize/reset_all
+        redux/{opt_name}/localize/save_pending
+        redux/{opt_name}/localize/preset
+</code></pre></li>
+</ul>
+<h2 id="3-3-2-3">3.3.2.3</h2>
+<ul>
+<li>Fixed:      #1376 - checkbox.min.js missing.</li>
+</ul>
+<h2 id="3-3-2-2">3.3.2.2</h2>
+<ul>
+<li>Fixed:      Static variable changes for instances and basic comment cleanup</li>
+</ul>
+<h2 id="3-3-2-1">3.3.2.1</h2>
+<ul>
+<li>Fixed:      #1361 - Raw field not hiding with required.</li>
+<li>Fixed:      Datepicker not formatting properly.  Still needs some work.</li>
+</ul>
+<h2 id="3-3-1-9">3.3.1.9</h2>
+<ul>
+<li>Fixed:      #1357 - Preview not rendering font on page load.</li>
+</ul>
+<h2 id="3-3-1-8">3.3.1.8</h2>
+<ul>
+<li>Fixed:      #1356 - Color fields and transparency not syncing due to new JS.</li>
+</ul>
+<h2 id="3-3-1-7">3.3.1.7</h2>
+<ul>
+<li>Fixed:      #1354 - Add class check for W3_ObjectCache.</li>
+</ul>
+<h2 id="3-3-1-6">3.3.1.6</h2>
+<ul>
+<li>Fixed:      #1341 - JS not initializing properly in import_export.</li>
+</ul>
+<h2 id="3-3-1-5">3.3.1.5</h2>
+<ul>
+<li>Fixed:      #1339 - Typography would lose Font Weight and Style. value was <pre><code>        named val in the HTML, so it would be destroyed on the next save 
+        if not initialized.
+</code></pre></li>
+</ul>
+<h2 id="3-3-1-4">3.3.1.4</h2>
+<ul>
+<li>Fixed:      #1226 - W3 Total Cache was affecting validation and compiler hooks.</li>
+<li>Fixed:      Menu errors weren&#39;t showing properly for non-subsectioned items.</li>
+</ul>
+<h2 id="3-3-1-3">3.3.1.3</h2>
+<ul>
+<li>Fixed:      #1341 - Import/Export buttons not functioning. Also fixed sortable somehow.</li>
+</ul>
+<h2 id="3-3-1-2">3.3.1.2</h2>
+<ul>
+<li>Fixed:      Slides not initializing with the last fix.</li>
+</ul>
+<h2 id="3-3-1-1">3.3.1.1</h2>
+<ul>
+<li>Fixed:      Slides field was not properly initialized for the media elements. Fixed.</li>
+</ul>
+<h2 id="3-3-0-6">3.3.0.6</h2>
+<ul>
+<li>Fixed:      #1337 - <code>redux</code> JS dependency loading issue.  Many thanks @tpaksu</li>
+</ul>
+<h2 id="3-3-0-5">3.3.0.5</h2>
+<ul>
+<li>Modified:   Drastically changed the way JavaScript is used in the panel. Forced as-needed<pre><code>        initialization of fields. Thus reducing dramatically the overall load time of
+        the panel. The effects have been seen up to 300% speed improvement. The only
+        time a field will be initialized is if it&#39;s visible, thus reducing the processing
+        needed in DOM overall.
+</code></pre></li>
+</ul>
+<h2 id="3-3-0-4">3.3.0.4</h2>
+<ul>
+<li>Fixed:      #1336 - fixed default font in preview.</li>
+</ul>
+<h2 id="3-3-0-3">3.3.0.3</h2>
+<ul>
+<li>Fixed:      #1334 - Typography not un-saving italics.</li>
+</ul>
+<h2 id="3-3-0-2">3.3.0.2</h2>
+<ul>
+<li>Added:      #1332 - New validation: numeric_not_empty.</li>
+</ul>
+<h2 id="3-3-0-1">3.3.0.1</h2>
+<ul>
+<li>Fixed:      #1330 - Required not working on all fields.</li>
+</ul>
+<h2 id="3-3-0">3.3.0</h2>
+<ul>
+<li>Added:      #1329 - <code>&#39;preview&#39; = array(&#39;always_display&#39; =&gt; true)</code> argument to typography, to determine if preview field show always be shown.</li>
+</ul>
+<h2 id="3-2-9-38">3.2.9.38</h2>
+<ul>
+<li>Fixed:      #1322 - Sections not folding with required argument.</li>
+<li>Modified:   Portions of core javascript rewritten into object code.</li>
+</ul>
+<h2 id="3-2-9-37">3.2.9.37</h2>
+<ul>
+<li>Fixed:      #1270 - Editor field compiler hook not firing in visual mode.</li>
+</ul>
+<h2 id="3-2-9-36">3.2.9.36</h2>
+<ul>
+<li>Added:      <code>hide_reset</code> argument, to hide the Reset All and Reset Section buttons.        </li>
+</ul>
+<h2 id="3-2-9-35">3.2.9.35</h2>
+<ul>
+<li>Fixed:      select2 dependency in select_image, and other fields.</li>
+</ul>
+<h2 id="3-2-9-34">3.2.9.34</h2>
+<ul>
+<li>Fixed:      Filter out <code>@eaDir</code> directories in extensions folder.</li>
+<li>Added:      <code>content_title</code> argument to slides field.  Thanks @psaikali!</li>
+</ul>
+<h2 id="3-2-9-33">3.2.9.33</h2>
+<ul>
+<li>Fixed:      Fixed the image_select presets to work again. Also now will function even if import/export is disabled.</li>
+</ul>
+<h2 id="3-2-9-32">3.2.9.32</h2>
+<ul>
+<li>Fixed:      Minor tweaks for metabox update.</li>
+</ul>
+<h2 id="3-2-9-31">3.2.9.31</h2>
+<ul>
+<li>Fixed:      #1297 - Missing space in image_select class.</li>
+<li>Fixed:      Slider field tweaked for metaboxes.</li>
+</ul>
+<h2 id="3-2-9-30">3.2.9.30</h2>
+<ul>
+<li>Fixed:      #1291 - Change of font-family would not trigger preview, or show in open preview.  </li>
+</ul>
+<h2 id="3-2-9-29">3.2.9.29</h2>
+<ul>
+<li>Fixed:      #1289 - Typography not retaining size/height/spacing/word/letter spacing settings.</li>
+</ul>
+<h2 id="3-2-9-28">3.2.9.28</h2>
+<ul>
+<li>Fixed:      #1288 - Background color-picker dependency missing.  Thanks @farhanwazir.</li>
+</ul>
+<h2 id="3-2-9-27">3.2.9.27</h2>
+<ul>
+<li>Fixed:      Search extension failed do to dependency issue from the core.</li>
+</ul>
+<h2 id="3-2-9-26">3.2.9.26</h2>
+<ul>
+<li>Fixed:      #1281 - color field output/compiler outputting incorrect selector when only one array present.</li>
+</ul>
+<h2 id="3-2-9-25">3.2.9.25</h2>
+<ul>
+<li>Fixed:      Update check only appears once if multiple instances of Redux are loaded in the same wordpress instance.</li>
+</ul>
+<h2 id="3-2-9-24">3.2.9.24</h2>
+<ul>
+<li>Fixed:      Changing font-family in typography didn&#39;t trigger &#39;save changes&#39; notification.</li>
+<li>Fixed:      More typography: Back up font appearing in font-family when opening selector.</li>
+<li>Fixed:      Typography: undefined message when NOT using google fonts.  Thanks @farhanwazir</li>
+</ul>
+<h2 id="3-2-9-23">3.2.9.23</h2>
+<ul>
+<li>Added:      <code>customizer_only</code> argument for fields &amp; sections, contributed by @andreilupu.</li>
+</ul>
+<h2 id="3-2-9-22">3.2.9.22</h2>
+<ul>
+<li>Fixed:      Typography font backup not in sync with font-family.</li>
+<li>Fixed:      Typography not saving font-family after switching back and forth between standard<pre><code>        and google fonts.
+</code></pre></li>
+<li>Fixed:      Background field selects not properly aligned.</li>
+</ul>
+<h2 id="3-2-9-21">3.2.9.21</h2>
+<ul>
+<li>Added:      select2 args for spacing field.</li>
+<li>Modified:   All field javascript rewritten using jQuery objects (versus standard function).<pre><code>        Prepping for another crack at group field.
+</code></pre></li>
+</ul>
+<h2 id="3-2-9-20">3.2.9.20</h2>
+<ul>
+<li>Added:      select2 args for the following fields: typography, background, border, dimensions and slider.</li>
+<li>Fixed:      Removed select field dependency from background field.</li>
+</ul>
+<h2 id="3-2-9-19">3.2.9.19</h2>
+<ul>
+<li>Fixed:      #1264 - Color-picker/transparent checkbox functionality.</li>
+<li>Fixed:      Typography fine-tuning.</li>
+</ul>
+<h2 id="3-2-9-18">3.2.9.18</h2>
+<ul>
+<li>Modified:   Typography field rewritten to fill out font-family field dynamically, versus on page load.</li>
+<li>Fixed:      All typography select fields render as select2.</li>
+</ul>
+<h2 id="3-2-9-17">3.2.9.17</h2>
+<ul>
+<li>Fixed:      Switching between transparency on and off now restores the last chosen color in <pre><code>        all color fields. 
+</code></pre></li>
+</ul>
+<h2 id="3-2-9-16">3.2.9.16</h2>
+<ul>
+<li>Fixed:      Redux uploads dir should NOT be ~/wp-content/uploads, but just wp-content. <pre><code>        As per Otto.
+</code></pre></li>
+<li>Fixed:      Navigation no longer has that annoying outline around the links. Yuk.</li>
+</ul>
+<h2 id="3-2-9-15">3.2.9.15</h2>
+<ul>
+<li>Fixed:      #1218 - Select2 multi select not accepting any keyboard input.</li>
+</ul>
+<h2 id="3-2-9-14">3.2.9.14</h2>
+<ul>
+<li>Fixed:      #1228 - CSS fixes</li>
+</ul>
+<h2 id="3-2-9-13">3.2.9.13</h2>
+<ul>
+<li>Fixed:      #1255 - button_set multi field not saving when all buttons not selected.</li>
+</ul>
+<h2 id="3-2-9-12">3.2.9.12</h2>
+<ul>
+<li>Fixed:      #1254 - Border field with 0px not outputting properly.</li>
+<li>Fixed:      #1250 - Typography preview font-size not set in preview.</li>
+<li>Fixed:      #1247 - Spacing field not outputting properly in <code>absolute</code> mode.</li>
+<li>Modified:   Typography previewing hidden until font inputs are changed.</li>
+</ul>
+<h2 id="3-2-9-11">3.2.9.11</h2>
+<ul>
+<li>Fixed:      Vendor js not loading properly when dev_mode = true</li>
+<li>Fixed:      Border field not outputting properly.</li>
+</ul>
+<h2 id="3-2-9-10">3.2.9.10</h2>
+<ul>
+<li>Modified:   Centralized import/export code in anticipation of new builder features.</li>
+<li>Fixed:      Removed rogue echo statement.</li>
+</ul>
+<h2 id="3-2-9-9">3.2.9.9</h2>
+<ul>
+<li>Modified:   select2 loads only when a field requires it.</li>
+</ul>
+<h2 id="3-2-9-8">3.2.9.8</h2>
+<ul>
+<li>Modified:   More code to load JS on demand for fields require it.</li>
+</ul>
+<h2 id="3-2-9-7">3.2.9.7</h2>
+<ul>
+<li>Modified:   Field specific JS only loads with active field.</li>
+<li>Fixed:      Hints stopped working due to classname change.</li>
+</ul>
+<h2 id="3-2-9-6">3.2.9.6</h2>
+<ul>
+<li>Fixed:      Permissions argument on section array not filtering out raw field.</li>
+</ul>
+<h2 id="3-2-9-5">3.2.9.5</h2>
+<ul>
+<li>Fixed:      Too many CSS tweaks to list, due to last build.</li>
+<li>Fixed:      Sortable and Sorter fields now sort without page scroll when page size is <pre><code>        under 782px.
+</code></pre></li>
+<li>Fixed:      Hint icon defaults to left position when screen size is under 782px.</li>
+<li>Fixed:      <code>permissions</code> argument for fields and sections erasing saved field data.  See #1231</li>
+</ul>
+<h2 id="3-2-9-4">3.2.9.4</h2>
+<ul>
+<li>Modified:   Woohoo! Nearly fully responsive. Yanked out all SMOF and NHP field customizations.<pre><code>        Lots of little fixes on all browser screens. This will also greatly benefit Metaboxes
+        and other areas of Redux.
+</code></pre></li>
+<li>Fixed:      In dev_mode panel CSS was being loaded 2x.</li>
+</ul>
+<h2 id="3-2-9-3">3.2.9.3</h2>
+<ul>
+<li>Fixed:      Typography color picker bleeding under other elements.  #1225</li>
+<li>Fixed:      Hint icon_color index error from builder.  #1222</li>
+</ul>
+<h2 id="3-2-9-2">3.2.9.2</h2>
+<ul>
+<li>Fixed:      Tracking. It was... odd. Also started our support hooks, UI to come.</li>
+<li>Fixed:      Now import/export supports multiple instances. I can&#39;t believe this has been this way for so long.</li>
+</ul>
+<h2 id="3-2-9-1">3.2.9.1</h2>
+<ul>
+<li>Fixed:      Spacing field not outputting proper CSS when <code>mode</code> was set to absolute, and <code>all</code> was set to true.</li>
+<li>Fixed:      CSS fix for typography.  Color picker would interfere with save/reset bar.</li>
+</ul>
+<h2 id="3-2-8-21">3.2.8.21</h2>
+<ul>
+<li>Added:      Network admin support! Set argument &#39;database&#39; to network and data will be saved site-wide.<pre><code>        Also two new arguments: network_admin &amp; network_sites for where to show the panel.
+</code></pre></li>
+</ul>
+<h2 id="3-2-8-20">3.2.8.20</h2>
+<ul>
+<li>Fixed:      Redux now ignores any directories that begin with <code>.</code> in the extension folder.  See #1213.</li>
+</ul>
+<h2 id="3-2-8-19">3.2.8.19</h2>
+<ul>
+<li>Fixed:      Redux not saving when validating uploads.</li>
+<li>Modified:   Dimension field default now accepts either <code>units</code> or <code>unit</code>.</li>
+</ul>
+<h2 id="3-2-8-18">3.2.8.18</h2>
+<ul>
+<li>Fixed:      Border field output/compiler formatting.  Removed &#39;inherit&#39; in place of default values.  See #1208.</li>
+<li>Fixed:      Trim() warning in framework.php when saving.  See #1209, #1201.</li>
+</ul>
+<h2 id="3-2-8-17">3.2.8.17</h2>
+<ul>
+<li>Fixed:      Typography not outputting all styles when <code>all_styles</code> set to true.</li>
+</ul>
+<h2 id="3-2-8-16">3.2.8.16</h2>
+<ul>
+<li>Added:      <code>output</code> argument for <code>color</code> and <code>color_rgba</code> fields accepts key/pairs for different modes.  Example:<pre><code>            &#39;output&#39; =&gt; array(&#39;color&#39; =&gt; &#39;.site-title, .site-header&#39;, &#39;background-color&#39; =&gt; &#39;.site-background&#39;)
+</code></pre></li>
+</ul>
+<h2 id="3-2-8-15">3.2.8.15</h2>
+<ul>
+<li>Added:      Customizer hook that can be used to simulate the customizer for live preview in the customizer.<pre><code>        `redux/customizer/live_preview`
+</code></pre></li>
+</ul>
+<h2 id="3-2-8-14">3.2.8.14</h2>
+<ul>
+<li>Fixed:      &#39;Cannot send header&#39; issues with typography.</li>
+<li>Modified:   Google CSS moved into HEAD via WP enqueue.</li>
+</ul>
+<h2 id="3-2-8-13">3.2.8.13</h2>
+<ul>
+<li>Added:      <code>class</code> argument to the Redux Arguments, section array, and metabox array. If set, a class will be<pre><code>        appended to whichever level is used. This allows further customization for our users.
+</code></pre></li>
+</ul>
+<h2 id="3-2-8-12">3.2.8.12</h2>
+<ul>
+<li>Fixed:      Small fix for validation if subsection parent is free of errors, remove the red highlight when<pre><code>        not expanded.
+</code></pre></li>
+<li>Fixed:      Small CSS classes for flashing fonts where web-font-loader.</li>
+<li>Fixed:      ASync Flash on fonts. FINALLY. What a pain.</li>
+<li>Modified:   Now do a trim on all fields before validating. No need to alert because of a space...</li>
+</ul>
+<h2 id="3-2-8-11">3.2.8.11</h2>
+<ul>
+<li>Modified:   Typography field CSS completely rewritten. All thanks to @eplanetdesign!</li>
+<li>Modified:   Validation now works in metaboxes as well as updates numbers as changes occur. Validation for<pre><code>        subsections is SO hot now.
+</code></pre></li>
+<li>Modified:   Various CSS fixes and improvements.</li>
+<li>Fixed:      3+ JavaScript errors found in the background field. Now works flawlessly.</li>
+<li>Added:      disable_save_warn flags to the arguments to disable the &quot;you should save&quot; slidedown.</li>
+</ul>
+<h2 id="3-2-8-10">3.2.8.10</h2>
+<ul>
+<li>Fixed:      PHP warnings in background field.  #1173.  Thanks, @abossola.</li>
+<li>Fixed:      CSS validation not respecting child selector symbol. #1162</li>
+</ul>
+<h2 id="3-2-8-9">3.2.8.9</h2>
+<ul>
+<li>Modified:   Turned of mod_rewrite check.</li>
+</ul>
+<h2 id="3-2-8-8">3.2.8.8</h2>
+<ul>
+<li>Modified:   How errors are displayed, no longer dependent on the ID, now proper classes.</li>
+<li>Fixed:      Extra check for typography bug.</li>
+<li>Fixed:      Error css alignment issue with subsections.</li>
+<li>Modified:   Error notice stays until all errors are gone. Also updates it&#39;s number as errors fixed!</li>
+</ul>
+<h2 id="3-2-8-7">3.2.8.7</h2>
+<ul>
+<li>Modified:   Moved google font files to proprietary folder in upload to help with permission issues.</li>
+</ul>
+<h2 id="3-2-8-6">3.2.8.6</h2>
+<ul>
+<li>Fixed:      javascript error in typography field.</li>
+</ul>
+<h2 id="3-2-8-5">3.2.8.5</h2>
+<ul>
+<li>Fixed:      Added a title to the google fonts stylesheet to fix validation errors.</li>
+</ul>
+<h2 id="3-2-8-4">3.2.8.4</h2>
+<ul>
+<li>Fixed:      One more slides field error check, and an extra JS goodie for an extension.</li>
+</ul>
+<h2 id="3-2-8-3">3.2.8.3</h2>
+<ul>
+<li>Fixed:      Leftover debug code messing up slides field.</li>
+</ul>
+<h2 id="3-2-8-2">3.2.8.2</h2>
+<ul>
+<li>Fixed:      More reliable saved action hook.</li>
+<li>Added:      Actions hooks for errors and warnings.</li>
+</ul>
+<h2 id="3-2-8-1">3.2.8.1</h2>
+<ul>
+<li>Fixed:      Removed erroneous debug output in link_color field.</li>
+</ul>
+<h2 id="3-2-7-3">3.2.7.3</h2>
+<ul>
+<li>Added:      is_empty / empty / !isset    AND    not_empty / !empty / isset as required operations</li>
+</ul>
+<h2 id="3-2-7-2">3.2.7.2</h2>
+<ul>
+<li>Fixed:      Reset defaults error.</li>
+<li>Added:      <code>show</code> argument to turn on and off input boxes in slider.</li>
+</ul>
+<h2 id="3-2-7-1">3.2.7.1</h2>
+<ul>
+<li>Fixed:      Required now works with muti-check fields and button set when set to multi.</li>
+</ul>
+<h2 id="3-2-7">3.2.7</h2>
+<ul>
+<li>Fixed:      Import works again. A single line was missed...</li>
+</ul>
+<h2 id="3-2-6-2">3.2.6.2</h2>
+<ul>
+<li>Fixed:      link_color field not outputting CSS properly via compiler or output.  Thanks @vertigo7x </li>
+<li>Fixed:      Sorter field CSS.  Buttons were all smushed together.</li>
+</ul>
+<h2 id="3-2-6-1">3.2.6.1</h2>
+<ul>
+<li>Fixed:      &#39;undefined&#39; error in typography.js.  Thanks @ksere.</li>
+</ul>
+<h2 id="3-2-6">3.2.6</h2>
+<ul>
+<li>Fixed:      Another stray undefined index. Oy.</li>
+</ul>
+<h2 id="3-2-5-1">3.2.5.1</h2>
+<ul>
+<li>Added:      <code>open_expanded</code> argument to start the panel completely expanded initially.</li>
+</ul>
+<h2 id="3-2-5">3.2.5</h2>
+<ul>
+<li>Fixed:      Various bad mistakes. Oy.</li>
+</ul>
+<h2 id="3-2-4">3.2.4</h2>
+<ul>
+<li>Fixed:      Slight typography speed improvement. Less HTML hopefully faster page loads.</li>
+<li>Fixed:      Unload error on first load if the typography defaults are not set.</li>
+</ul>
+<h2 id="3-2-3-5">3.2.3.5</h2>
+<ul>
+<li>Modified:   Moved update check functions to class file and out of the core.</li>
+<li>Fixed:      Errors pertaining to mod_rewrite check.</li>
+</ul>
+<h2 id="3-2-3-4">3.2.3.4</h2>
+<ul>
+<li>Fixed:      All those headers already set errors.</li>
+</ul>
+<h2 id="3-2-3-3">3.2.3.3</h2>
+<ul>
+<li>Added:      $changed_values variable to save hooks denoting the old values on a save.</li>
+<li>Added:      Pointers to Extensions on load.</li>
+<li>Modified:   CSS Output for the background field.</li>
+</ul>
+<h2 id="3-2-3-2">3.2.3.2</h2>
+<ul>
+<li>Fixed:      Validation error messages not appearing on save.</li>
+<li>Modified:   Speed boost on validation types.</li>
+<li>Added:      Apache mod_rewrite check.  This should solve many issues we&#39;ve been seeing regarding mod_rewrite noe being enabled.</li>
+</ul>
+<h2 id="3-2-3-1">3.2.3.1</h2>
+<ul>
+<li>Fixed:      Sortable field not saving properly.</li>
+<li>Fixed:      Erroneous data in admin.less</li>
+<li>Updated:    sample-config.php.  Sortable checkbox field example now uses true/false instead of text<pre><code>        meant for textbox example.
+</code></pre></li>
+</ul>
+<h2 id="3-2-3">3.2.3</h2>
+<ul>
+<li>Fixed:      Responsive issues with spacing and dimension fields.</li>
+</ul>
+<h2 id="3-2-2-16">3.2.2.16</h2>
+<ul>
+<li>Fixed:      Style conflicts with WP 3.9. Added register filter to fields via id.</li>
+</ul>
+<h2 id="3-2-2-15">3.2.2.15</h2>
+<ul>
+<li>Fixed:      Metaboxes issues.</li>
+</ul>
+<h2 id="3-2-2-14">3.2.2.14</h2>
+<ul>
+<li>Modified:   Some admin panel stylings. Now perfect with mobile hover. Also fixed an issue<pre><code>        with the slidedown width for sections. No more 2 empty pixels.
+</code></pre></li>
+</ul>
+<h2 id="3-2-2-13">3.2.2.13</h2>
+<ul>
+<li>Added:      Tick mark if section has sub sections. Hidden when subsections expanded.</li>
+</ul>
+<h2 id="3-2-2-12">3.2.2.12</h2>
+<ul>
+<li>Fixed:      Compiler hook in the customizer now passes the CSS.</li>
+</ul>
+<h2 id="3-2-2-11">3.2.2.11</h2>
+<ul>
+<li>Fixed:      Compiler hook now properly fires in the customizer.</li>
+</ul>
+<h2 id="3-2-2-10">3.2.2.10</h2>
+<ul>
+<li>Fixed:      Validation error with headers already being set.</li>
+</ul>
+<h2 id="3-2-2-9">3.2.2.9</h2>
+<ul>
+<li>Fixed:      Added mode for width/height to override dimensions css output.</li>
+</ul>
+<h2 id="3-2-2-8">3.2.2.8</h2>
+<ul>
+<li>Fixed:      Restoring lost formatting from multiple merges.</li>
+</ul>
+<h2 id="3-2-2-7">3.2.2.7</h2>
+<ul>
+<li>Fixed:      New sorter default values get set properly now.  ;)</li>
+</ul>
+<h2 id="3-2-2-6">3.2.2.6</h2>
+<ul>
+<li>Added:      <code>data</code> and <code>args</code> can now be set to sorter! Just make sure to have it be a key based on what<pre><code>        you want it to display as. IE: `array(&#39;Main&#39;=&gt;&#39;sidebars&#39;)`
+</code></pre></li>
+</ul>
+<h2 id="3-2-2-5">3.2.2.5</h2>
+<ul>
+<li>Added:      Prevent Redux from firing on AJAX heartbeat, but added hook for it &#39;redux/ajax/heartbeat&#39;.</li>
+<li>Fixed:      Removed erroneous &#39;s&#39; character from HTML.</li>
+</ul>
+<h2 id="3-2-2-4">3.2.2.4</h2>
+<ul>
+<li>Added:        Check to make sure a field isn&#39;t empty after the filter. If it is empty, skip over it.</li>
+</ul>
+<h2 id="3-2-2-3">3.2.2.3</h2>
+<ul>
+<li>Added:        Subsections now show icon if they have it. Show text only (without indent) if they do not.</li>
+</ul>
+<h2 id="3-2-2-2">3.2.2.2</h2>
+<ul>
+<li>Added:        Set a section or field argument of <code>&#39;panel&#39; =&gt; false</code> to skip over that field or panel and<pre><code>        hide it. It will still be registered with defaults saved, but not display. This can be useful
+        for things like the customizer.
+</code></pre></li>
+</ul>
+<h2 id="3-2-2-1">3.2.2.1</h2>
+<ul>
+<li>Added:        SUBSECTIONS! Just add <code>&#39;subsection&#39; =&gt; true</code> to any section that isn&#39;t a divide/callback and<pre><code>        isn&#39;t the first section in your panel.  ;)
+</code></pre></li>
+</ul>
+<h2 id="3-2-1-2">3.2.1.2</h2>
+<ul>
+<li>Fixed:      Info field didn&#39;t intend within section.</li>
+</ul>
+<h2 id="3-2-1-1">3.2.1.1</h2>
+<ul>
+<li>Fixed:      Compiler hook wasn&#39;t running.</li>
+</ul>
+<h2 id="3-1-9-44">3.1.9.44</h2>
+<ul>
+<li>Fixed:      Small bug in image_select javascript.</li>
+</ul>
+<h2 id="3-1-9-43">3.1.9.43</h2>
+<ul>
+<li>Added:      Import hook, just because we can.  :)</li>
+</ul>
+<h2 id="3-1-9-42">3.1.9.42</h2>
+<ul>
+<li>Fixed:      Customizer now TRULY outputting CSS if output_tag is set to false.</li>
+</ul>
+<h2 id="3-1-9-41">3.1.9.41</h2>
+<ul>
+<li>Fixed:      Reset section, etc. Discovered an odd WordPress thing.</li>
+</ul>
+<h2 id="3-1-9-40">3.1.9.40</h2>
+<ul>
+<li>Fixed:      Image_select size override.</li>
+<li>Fixed:      Customizer save not firing the compiler hook.</li>
+<li>Fixed:      Customizer not outputting CSS if output_tag is set to false.</li>
+<li>Fixed:      Small empty variable check. Undefined index in the defaults generating function.</li>
+</ul>
+<h2 id="3-1-9-39">3.1.9.39</h2>
+<ul>
+<li>Fixed:      WP 3.9 update made editor field button look ugly.</li>
+<li>Fixed:      Save hook not firing when save_default set to false.</li>
+</ul>
+<h2 id="3-1-9-38">3.1.9.38</h2>
+<ul>
+<li>Fixed:      Reset section anomalies.  Maybe.</li>
+</ul>
+<h2 id="3-1-9-37">3.1.9.37</h2>
+<ul>
+<li>Fixed:      Array of values in required not recognized.</li>
+</ul>
+<h2 id="3-1-9-36">3.1.9.36</h2>
+<ul>
+<li>Fixed:      Updated hint defaults to prevent index warning.</li>
+</ul>
+<h2 id="3-1-9-35">3.1.9.35</h2>
+<ul>
+<li>Fixed:      Removed leftover debug code.</li>
+</ul>
+<h2 id="3-1-9-34">3.1.9.34</h2>
+<ul>
+<li>Added:      New readonly argument for text field.</li>
+</ul>
+<h2 id="3-1-9-33">3.1.9.33</h2>
+<ul>
+<li>Fixed:      Reset/Reset section actions hooks now fire properly.</li>
+</ul>
+<h2 id="3-1-9-32">3.1.9.32</h2>
+<ul>
+<li>Fixed:      When developer uses section field but does not specify an indent argument.</li>
+</ul>
+<h2 id="3-1-9-31">3.1.9.31</h2>
+<ul>
+<li>Fixed:      Dynamic URL for slides</li>
+<li>Fixed:      Accidently removed reset action on section reset. Restored.</li>
+</ul>
+<h2 id="3-1-9-30">3.1.9.30</h2>
+<ul>
+<li>Fixed:      Section defaults bug for certain field types.</li>
+</ul>
+<h2 id="3-1-9-29">3.1.9.29</h2>
+<ul>
+<li>Fixed:      Dynamic URL if site URL changed now updates media properly if attachement exists.</li>
+</ul>
+<h2 id="3-1-9-28">3.1.9.28</h2>
+<ul>
+<li>Fixed:      Customizer now correctly does live preview.</li>
+</ul>
+<h2 id="3-1-9-27">3.1.9.27</h2>
+<ul>
+<li>Fixed:      Special enqueue case fix.</li>
+</ul>
+<h2 id="3-1-9-26">3.1.9.26</h2>
+<ul>
+<li>Added:      A few more hooks for defaults and options.</li>
+<li>Fixed:      Small undefined index error.</li>
+<li>Added:      Section key generation via title.</li>
+<li>Modified:   File intending.</li>
+</ul>
+<h2 id="3-1-9-25">3.1.9.25</h2>
+<ul>
+<li>Fixed:      Custom menus not displaying options panel.</li>
+</ul>
+<h2 id="3-1-9-24">3.1.9.24</h2>
+<ul>
+<li>Fixed:      Single checkbox option not retaining checked value.</li>
+<li>Fixed:      Border field returning bad CSS in CSS compiler.</li>
+</ul>
+<h2 id="3-1-9-23">3.1.9.23</h2>
+<ul>
+<li>Fixed:      Import/Export fix.  Thanks, CGlingener!</li>
+</ul>
+<h2 id="3-1-9-22">3.1.9.22</h2>
+<ul>
+<li>Added:      Save warning now is sticky to the top and responsive.</li>
+<li>Fixed:      Mobile fixes for Redux. Looks great on small screens how.</li>
+<li>Fixed:      Slight CSS fixes.</li>
+<li>Fixed:      Compiler fixes and added notices.</li>
+<li>Added:      Import/Export more reasonable text.</li>
+</ul>
+<h2 id="3-1-9-21">3.1.9.21</h2>
+<ul>
+<li>Added:      <code>force_output</code> are on the field level to bypass the required check that removes the output<pre><code>        if the field is hidden. Thanks @rffaguiar.
+</code></pre></li>
+</ul>
+<h2 id="3-1-9-20">3.1.9.20</h2>
+<ul>
+<li>Fixed:      Rare case (mediatemple grid server) when file_get_contents won&#39;t work outside of the<pre><code>        uploads dir. Used curl to grab the font HTML.  ;)
+</code></pre></li>
+</ul>
+<h2 id="3-1-9-19">3.1.9.19</h2>
+<ul>
+<li>Fixed:      Undefined index for admin bar.</li>
+</ul>
+<h2 id="3-1-9-18">3.1.9.18</h2>
+<ul>
+<li>Fixed:      SMALL issue with WordPress 3.9. Now it works.  ;)</li>
+</ul>
+<h2 id="3-1-9-17">3.1.9.17</h2>
+<ul>
+<li>Fixed:      Info and divide field now work with required.</li>
+</ul>
+<h2 id="3-1-9-16">3.1.9.16</h2>
+<ul>
+<li>Added:      Fallback. Now if the media, slides, or background URL doesn&#39;t match the site URL, but the<pre><code>        attachment ID is present, the data is updated.
+</code></pre></li>
+</ul>
+<h2 id="3-1-9-15">3.1.9.15</h2>
+<ul>
+<li>Fixed:      Last tab not properly set.  Slow rendering.</li>
+</ul>
+<h2 id="3-1-9-14">3.1.9.14</h2>
+<ul>
+<li>Modified:   Replaced transients with cookies.</li>
+</ul>
+<h2 id="3-1-9-13">3.1.9.13</h2>
+<ul>
+<li>Fixed:      Undefined variable issues for new required methods.</li>
+</ul>
+<h2 id="3-1-9-12">3.1.9.12</h2>
+<ul>
+<li>Fixed:      Default_show display error with a non-array being steralized.</li>
+<li>Added:      Multiple required parent value checking! Booya!</li>
+<li>Fixed:      Sections now fold with required.</li>
+</ul>
+<h2 id="3-1-9-11">3.1.9.11</h2>
+<ul>
+<li>Fixed:      select2 not rendering properly when dev_mode = false, because of ace_editor fix.</li>
+<li>Fixed:      Removed mistakenly compiled test code from redux.js.</li>
+</ul>
+<h2 id="3-1-9-10">3.1.9.10</h2>
+<ul>
+<li>Fixed:      ace_editor not rendering properly in certain instances.</li>
+<li>Modified:   Small change to import_export field in checking for existing instance of itself.</li>
+</ul>
+<h2 id="3-1-9-9">3.1.9.9</h2>
+<ul>
+<li>Fixed:      import_export not rendering when the menutype argument was set to menu</li>
+</ul>
+<h2 id="3-1-9-8">3.1.9.8</h2>
+<ul>
+<li>Fixed:      Ace_editor not enqueued unless used. MEMORY HOG.</li>
+</ul>
+<h2 id="3-1-9-7">3.1.9.7</h2>
+<ul>
+<li>Fixed:      Color_Gradient transparency to was being auto-selected if from way transparent.</li>
+<li>Fixed:        Enqueue select with slider for local dev.</li>
+</ul>
+<h2 id="3-1-9-6">3.1.9.6</h2>
+<ul>
+<li>Modified:   removed add_submenu_page when creating a submenu for us in the WP admin area.  WP<pre><code>        approved API is used in it&#39;s place to being Redux up to wp.org theme check standards.
+</code></pre></li>
+</ul>
+<h2 id="3-1-9-5">3.1.9.5</h2>
+<ul>
+<li>Fixed:      Massive speed issue with button_set. Resolved.</li>
+<li>Fixed:      Issue where default values throws an error if ID is not set.</li>
+</ul>
+<h2 id="3-1-9-4">3.1.9.4</h2>
+<ul>
+<li>Fixed:      Continuing effort to ensure proper loading of config from child themes.</li>
+</ul>
+<h2 id="3-1-9-3">3.1.9.3</h2>
+<ul>
+<li>Fixed:      Import/Export array search bug if section[&#39;fields&#39;] is not defined.</li>
+</ul>
+<h2 id="3-1-9-2">3.1.9.2</h2>
+<ul>
+<li>Fixed:      Inconsistencies in import/export across different versions of PHP.</li>
+</ul>
+<h2 id="3-1-9-1">3.1.9.1</h2>
+<ul>
+<li>Fixed:      Redux checks for child or parent theme exclusively before loading.</li>
+</ul>
+<h2 id="3-1-9">3.1.9</h2>
+<ul>
+<li>Updated:    RGBA Field stability.  Thank you, SilverKenn.</li>
+</ul>
+<h2 id="3-1-8-23">3.1.8.23</h2>
+<ul>
+<li>Modified:   Separated Import/Export from the core.  It can now be used as a field.</li>
+</ul>
+<h2 id="3-1-8-22">3.1.8.22</h2>
+<ul>
+<li>Fixed:      Typography custom preview text/size not outputting.</li>
+<li>Fixed:      No font selected in typography would default to &#39;inherit&#39;.</li>
+<li>Fixed:      Hint feature kicking back a notice if no title was specified.</li>
+</ul>
+<h2 id="3-1-8-21">3.1.8.21</h2>
+<ul>
+<li>Fixed:      Sortable field, when used a checkboxes, were all checked by default, even when set not to be.</li>
+<li>Fixed:      button_set field not setting properly in multi mode.</li>
+</ul>
+<h2 id="3-1-8-20">3.1.8.20</h2>
+<ul>
+<li>Fixed:      Javascript console object not printing options object.</li>
+<li>Fixed:      Load errors from child themes no longer occur.</li>
+</ul>
+<h2 id="3-1-8-19">3.1.8.19</h2>
+<ul>
+<li>Modified:   Typography word and letter spacing now accept negative values.</li>
+<li>Modified:   Typography preview shows spaces between upper and lower case groupings.</li>
+<li>Fixed:      Compiler output for slider field.</li>
+</ul>
+<h2 id="3-1-8-18">3.1.8.18</h2>
+<ul>
+<li>Fixed:      update_check produced a fatal error on a local install with no internet connection.</li>
+<li>Modified:   Google font CSS moved to header so pages will pass HTML5 validation.</li>
+</ul>
+<h2 id="3-1-8-17">3.1.8.17</h2>
+<ul>
+<li>Fixed:      Compiler hook failing on slider.</li>
+</ul>
+<h2 id="3-1-8-16">3.1.8.16</h2>
+<ul>
+<li>Fixed:      Error on update_check when the response code was something other than 200.</li>
+<li>Modified:   Removed Google font CSS line from header (because it&#39;s in the footer via wp_enqueue_style.</li>
+</ul>
+<h2 id="3-1-8-15">3.1.8.15</h2>
+<ul>
+<li>Added:      Admin notice for new builds of Redux on Github as they become available.  This feature is<pre><code>        available on in dev_mode, and may be turned off by setting the `update_notice` argument to
+        false.  See the Arguments page of the wiki for more details.
+</code></pre></li>
+<li>Added:      text-transform option for the typography field.</li>
+<li>Fixed:      image_select images not resizing properly in FF and IE.</li>
+<li>Fixed:      Layout for the typography field, so everything isn&#39;t smushed together.  The new layout is<pre><code>        as follows:
+            [family-font] [backup-font]
+            [style] [script] [align] [transform]
+            [size] [height] [word space] [letter space]
+            [color]
+</code></pre></li>
+</ul>
+<h2 id="3-1-8-14">3.1.8.14</h2>
+<ul>
+<li>Added:      Newsletter sign-up popup at first load of the Redux options panel.</li>
+</ul>
+<h2 id="3-1-8-12">3.1.8.12</h2>
+<ul>
+<li>Added:      Added PHP 5.2 support for import/export.</li>
+</ul>
+<h2 id="3-1-8-11">3.1.8.11</h2>
+<ul>
+<li>Added:      Action hooks for options reset and options reset section.</li>
+<li>Added:      Theme responsive for date picker.</li>
+</ul>
+<h2 id="3-1-8-10">3.1.8.10</h2>
+<ul>
+<li>Added:      New slider.  Better looking UI, double handles and support for floating<pre><code>        point values.  See the wiki for more info.
+</code></pre></li>
+</ul>
+<h2 id="3-1-8-9">3.1.8.9</h2>
+<ul>
+<li>Fixed:      link_color field showing notice on default, if user enters no defaults.</li>
+<li>Fixed:      Fixed tab notice in framework.php if no tab parameter is set in URL.</li>
+</ul>
+<h2 id="3-1-8-8">3.1.8.8</h2>
+<ul>
+<li>Added:      Typography improvements.</li>
+</ul>
+<h2 id="3-1-8-7">3.1.8.7</h2>
+<ul>
+<li>Added:      Hints!  More info:  <a href="https://github.com/ReduxFramework/ReduxFramework/wiki/Using-Hints-in-Fields">https://github.com/ReduxFramework/ReduxFramework/wiki/Using-Hints-in-Fields</a></li>
+</ul>
+<h2 id="3-1-8-6">3.1.8.6</h2>
+<ul>
+<li>Added:      Complete Wordpress admin color styles. Blessed LESS/SCSS mixins.  ;)</li>
+</ul>
+<h2 id="3-1-8-5">3.1.8.5</h2>
+<ul>
+<li>Added:      Font family not required for the typography module any longer.</li>
+</ul>
+<h2 id="3-1-8-4">3.1.8.4</h2>
+<ul>
+<li>Added:      Support for using the divide field in folding.</li>
+<li>Added:      Error trapping in typography.js for those still attempting to use<pre><code>        typography with no font-family.
+</code></pre></li>
+</ul>
+<h2 id="3-1-8-3">3.1.8.3</h2>
+<ul>
+<li>Added:      Full asynchronous font loading.</li>
+<li><h2 id="3-1-8-2">3.1.8.2</h2>
+</li>
+<li>Added:      email_not_empty validation field.</li>
+<li>Reverted:   email validation field only checks for valid email.  not_empty check moved<pre><code>        to new validation field.
+</code></pre></li>
+</ul>
+<h2 id="3-1-8-1">3.1.8.1</h2>
+<ul>
+<li>Fixed:      Hide demo hook wasn&#39;t hiding demo links.</li>
+</ul>
+<h2 id="3-1-8">3.1.8</h2>
+<ul>
+<li>Fixed:    Improper enqueue in tracking class.</li>
+<li>Fixed:    Few classes missed for various fields.</li>
+<li>Fixed:    Spacing field kicking back notices and warnings when &#39;output&#39; wasn&#39;t set.</li>
+<li>Modified: Added file_exists check to all include lines in framework.php</li>
+<li>Fixed:    Background field now works with dynamic preview as it should.</li>
+<li>Fixed:    Extension fields now enqueueing properly.</li>
+<li>Added:    Text-align to typography field.</li>
+<li>Fixed:    Servers returning forwards slashes in TEMPLATEPATH, while Redux is installed<pre><code>      embedded would not show options menu.
+</code></pre></li>
+<li>Fixed:    On and Off for switch field not displaying language translation.</li>
+<li>Fixed:    email validation allowing a blank field.</li>
+<li>Fixed:    Now allow for empty values as valid keys.</li>
+<li>Added:    Dismiss option to admin notices (internal function)</li>
+</ul>
+<h2 id="3-1-6">3.1.6</h2>
+<ul>
+<li>Fixed:    CSS spacing issue</li>
+<li>Fixed:    Customizer now works and doesn&#39;t break other customizer fields outside of Redux.</li>
+<li>Fixed:    Several minor bug fixes</li>
+<li>Added:    Metabox support via extension <a href="http://reduxframework.com/extensions/">http://reduxframework.com/extensions/</a></li>
+<li>Added:    Admin-bar menu</li>
+<li>Fixed:    Section field now folds.</li>
+<li>Fixed:    wp_content_dir path now handles double forward slashes.</li>
+<li>Fixed:    Typography field missing italics in Google fonts.</li>
+<li>Fixed:    Default color in border field not saving properly.</li>
+<li>Fixed:    hex2rgba in class.redux_helpers.php changed to static.</li>
+<li>Fixed:    &#39;sortable&#39; field type not saving options as default.</li>
+<li>Fixed:    Specified default color not set when clicking the color box default button.</li>
+<li>Fixed:    Sorter field options are now saved as default in database.</li>
+<li>Fixed:    Issues with checkboxes displaying default values instead of labels.</li>
+<li>Fixed:    Outstanding render issues with spacing field.</li>
+<li>Fixed:    Plugins using Redux from load failure.</li>
+<li>Fixed:    &#39;not_empty&#39; field validation.</li>
+<li>Fixed:    Media field.</li>
+<li>Added:    &#39;read-only&#39; option for media text field.</li>
+<li>Added:    &#39;mode&#39; option to image_select, so CSS output element may be specified.</li>
+<li>Added:    Admin Bar menu for option panel.</li>
+<li>Modified: Removed raw_align field and added align option to raw field.<pre><code>      See wiki for more info.
+</code></pre></li>
+<li>Modified: media field &#39;read-only&#39; to &#39;readonly&#39; to vonform to HTML standards.</li>
+<li>Removed:  EDD extension. It never belonged in Core and will be re-released as a<pre><code>      downloadable extension shortly
+</code></pre></li>
+<li>Removed:  Group field, temporarily.</li>
+<li>Removed:  wp_get_current_user check.</li>
+</ul>
+<h2 id="3-1-5">3.1.5</h2>
+<ul>
+<li>Typography font arrays may not contain comma spaces.</li>
+<li>Merge in pull request - 542, code cleanup and better readability</li>
+<li>Change how HTML is output to support metaboxes</li>
+<li>CSS only on pages that matter, better checks.</li>
+<li>font-backup in typography now appends to font-family in output and compiler.</li>
+<li>More fixes for Google font css outputting.</li>
+<li>Addded output and compiler to field_image_select.  Images will be output as &#39;background-image&#39;.</li>
+<li>Fixed output in field_background.</li>
+<li>Prevent standard fonts from outputting to Google fonts CSS call.</li>
+<li>class_exists in field_section checking for incorrect classname.</li>
+<li>sample_config fix.</li>
+<li>Compiler not outputting CSS without output set to comthing other than false.</li>
+<li>Google fonts not rendering on frontend.</li>
+<li>Rewrote sample_config as a class</li>
+</ul>
+<h2 id="3-1-4">3.1.4</h2>
+<ul>
+<li>Fixed error in redux-framework.php.</li>
+<li>Added select_image field.</li>
+</ul>
+<h2 id="3-1-3">3.1.3</h2>
+<ul>
+<li>Fixed a few undefined variables</li>
+<li>Removed old code from the repo.</li>
+<li>Fix for validation.</li>
+<li>Remove the compiler hook by default.</li>
+<li>Fix to sortable field.</li>
+<li>Added an extra check for link color. Removes user error.</li>
+<li>Localization updates.</li>
+<li>Error in slides.</li>
+<li>Fixed the info box bug with spacing and padding.</li>
+<li>Fixed the first item in each section having WAY too much padding.  ;)</li>
+<li>Fixed section reset issue where values weren&#39;t being saved to the db properly.</li>
+</ul>
+<h2 id="3-1-2">3.1.2</h2>
+<ul>
+<li>Feature - Sortable select boxes!</li>
+<li>Feature - Reset a section only or the whole panel!</li>
+<li>New Field - RGBA Color Field!</li>
+<li>Improvement - Use of REM throughout.</li>
+<li>Fixed Typography - Fix output option and various small bugs.</li>
+<li>Fixed Border - Fix output option and various small bugs.</li>
+<li>Fixed Dimensions - Fix output option and various small bugs.</li>
+<li>Fixed Image_select - Various small bugs.</li>
+<li>Fixed Slides - Various small bugs.</li>
+<li>Fixed Sortable - Using native jQuery UI library same as within WordPress.</li>
+<li>Fixed Slider and Spinner Input Field - Values now move to the closest valid
+value in regards to the step, automatically.</li>
+<li>Fixed Ace Editor</li>
+<li>FEATURE - All CSS/JS files are compiled into a single file now! Speed
+improvements for the backend.</li>
+<li>Fix in how WordPress data is received, improved some output.</li>
+<li>Fix for various fields not triggering fold/compiler/save.</li>
+<li>Fixed elusive icons to use the new version and classes.</li>
+<li>Fixed media thumb to only be the thumbnail version.</li>
+<li>Fixed admin https error with WordPress core not renaming URL.</li>
+<li>Placeholders throughout the framework are now properly there.</li>
+<li>Feature - Setting to not save defaults to database on load.</li>
+<li>Fixed - Computability issue with GT3 builder.</li>
+<li>Fixed localization issue with default values.</li>
+<li>Language - Added Russian</li>
+<li>Feature - Media now can have any content type passed in to limit content types.</li>
+<li>Allow negative values in typography and other fields.</li>
+<li>WordPress 3.8 computability.</li>
+<li>CSS validation issue.</li>
+<li>Feature - User contributed text direction feature.</li>
+<li>EDD Extension now fully function for plugins or themes.</li>
+<li>Removed get_theme_data() fallbacks, we&#39;re well pass WordPress 3.4 now.  ;)</li>
+<li>A ton of other small updates and improvements.</li>
+</ul>
+<h2 id="3-1-0">3.1.0</h2>
+<ul>
+<li>Fix Issue 224 - Image Select width was breaking the panel.</li>
+<li>Fix Issue 181 - Broken panel in firefox</li>
+<li>Fix Issue 225 - 0px typography bug. Thanks @partnuz.</li>
+<li>Fix Issue 228 - Resolved a duplicated enqueue on color_link field. Thanks @vertigo7x.</li>
+<li>Fix Issue 231 - Field spacing bug fixes.</li>
+<li>Fix Issue 232 &amp; 233 - Dimensions: bug fix with units and multiple units. Thanks @kpodemski</li>
+<li>Fix Issue 234 - Pass options as a ref so validating actions can modify/sanitize them. Thanks @ZeroBeeOne</li>
+<li>Fix Issue 222 - Tab cookie function wasn&#39;t working.</li>
+<li>Feature - Pass params to Select2. Thanks @andreilupu</li>
+<li>Fix Issue 238 - Fix for conditional output. Thanks @partnuz.</li>
+<li>Fix Issue 211 - Google Web font wasn&#39;t loading at first init of theme.</li>
+<li>Fix Issue 210 - Elusive Icons update. Changed classes to force use of full elusive name.</li>
+<li>Fix Issue 247 - Media thumbnails were not showing. Also fixed media to keep the largest file, but display the small<pre><code>            version in the panel as a thumb. Thanks @kwayyinfotech.
+</code></pre></li>
+<li>Fix Issue 144 - JS error when no item found in slider.</li>
+<li>Fix Issue 246 - Typography output errors.</li>
+<li>Feature &amp; Issue 259 - Multi-Text now support validation!</li>
+<li>Fix Issue 248/261 - Links color issue. Also fixed color validation.</li>
+<li>Feature &amp; Issue 262 - Now registered sidebars can be used as a data type.</li>
+<li>Fix Issue 194/276 - Custom taxonomy terms now passing properly. Thanks @kprovance.</li>
+<li>Feature &amp; Issue 273 - Argument save_defaults: Disable the auto-save of the default options to the database if not set.</li>
+<li>Feature - Docs now being moved to the wiki for community participation.</li>
+<li>Issue 283 - Date placeholder. Thanks @kprovance.</li>
+<li>Issue 285 - HTTPS errors on admin. Known WordPress bug. Resolved.</li>
+<li>Fix Issue 288 - Float values now possible for border, dimensions, and spacing.</li>
+<li>Feature - Media field can now accept non-image files with a argument being set.</li>
+<li>Fix Issue 252 - Post Type data wasn&#39;t working properly. Thanks @Abu-Taymiyyah.</li>
+<li>Fix Issue 213 - Radio and Button Set wasn&#39;t folding.</li>
+</ul>
+<h2 id="3-0-9">3.0.9</h2>
+<ul>
+<li>Feature - Added possibility to set default icon class for all sections and tabs.</li>
+<li>Feature - Make is to the WP dir can be moved elsewhere and Redux still function.</li>
+<li>Added Spanish Language. Thanks @vertigo7x.</li>
+<li>Fix Issue 5 - Small RGBA validation fix.</li>
+<li>Fix Issue 176 - Fold by Image Select. Thanks @andreilupu.</li>
+<li>Fix Issue 194 - Custom taxonomy terms in select field.</li>
+<li>Fix Issue 195 - Border defaults not working.</li>
+<li>Fix Issue 197 - Hidden elements were showing up on a small screen. Thanks @ThinkUpThemes.</li>
+<li>Fix issue 200 - Compiler not working with media field.</li>
+<li>Fix Issue 201 - Spacing field not using default values.</li>
+<li>Fix Issue 202 - Dimensions field not using units.</li>
+<li>Fix Issue 208 - Checkbox + Required issue.</li>
+<li>Fix Issue 211 - Google Font default not working on page load.</li>
+<li>Fix Issue 214 - Validation notice not working for fields.</li>
+<li>Fix Issue 181/224 - Firefox 24 image resize errors.</li>
+<li>Fix Issue 223 - Slides were losing the url input field for the image link.</li>
+<li>Fix - Various issues in the password field.</li>
+<li>Fixed various spelling issues and typos in sample-config file.</li>
+<li>Initialize vars before extract() - to shut down undefined vars wargnings.</li>
+<li>Various other fixes.</li>
+</ul>
+<h2 id="3-0-8">3.0.8</h2>
+<ul>
+<li>Version push to ensure all bugs fixes were deployed to users. Various.</li>
+</ul>
+<h2 id="3-0-7">3.0.7</h2>
+<ul>
+<li>Feature - Completely redone spacing field. Choose to apply to sides or all at once with CSS output!</li>
+<li>Feature - Completely redone border field. Choose to apply to sides or all at once with CSS output!</li>
+<li>Feature - Added opt-in anonymous tracking, allowing us to further analyze usage.</li>
+<li>Feature - Enable weekly updates of the Google Webfonts cache is desired. Also remove the Google Webfont files from<pre><code>      shipping with Redux. Will re-download at first panel run to ensure users always have the most recent copy.
+</code></pre></li>
+<li>Language translation of german updated alone with ReduxFramework pot file.</li>
+<li>Fix Issue 146 - Spacing field not storing data.</li>
+<li>Fix - Firefox field description rendering bug.</li>
+<li>Fix - Small issue where themes without tags were getting errors from the sample data.</li>
+</ul>
+<h2 id="3-0-6">3.0.6</h2>
+<ul>
+<li>Hide customizer fields by default while still under development.</li>
+<li>Fix Issue 123 - Language translations to actually function properly embedded as well as in the plugin.</li>
+<li>Fix Issue 151 - Media field uses thumbnail not full image for preview. Also now storing the thumbnail URL. Uses<pre><code>            the smallest available size as the thumb regardless of the name.
+</code></pre></li>
+<li>Fix Issue 147 - Option to pass params to select2. Contributed by @andreilupu. Thanks!</li>
+<li>Added trim function to ace editor value to prevent whitespace before and after value keep being added</li>
+<li>htmlspecialchars() value in pre editor for ace. to prevent html tags being hidden in editor and rendered in dom</li>
+<li>Feature: Added optional &#39;add_text&#39; argument for multi_text field so users can define button text.</li>
+<li>Added consistent remove button on multi text, and used sanitize function for section id</li>
+<li>Feature: Added roles as data for field data</li>
+<li>Feature: Adding data layout options for multi checkbox and radio, we now have quarter, third, half, and full<pre><code>     column layouts for these fields.
+</code></pre></li>
+<li>Feature: Eliminate REDUX_DIR and REDUX_URL constants and instead created static ReduxFramework::$_url and<pre><code>     ReduxFramework::$\_dir for cleaner code.
+</code></pre></li>
+<li>Feature: Code at bottom of sample-config.php to hide plugin activation text about a demo plugin as well as<pre><code>     code to demo how to hide the plugin demo_mode link.
+</code></pre></li>
+<li>Started work on class definitions of each field and class. Preparing for the panel builder we are planning to make.</li>
+</ul>
+<h2 id="3-0-5">3.0.5</h2>
+<ul>
+<li>Fixed how Redux is initialised so it works in any and all files without hooking into the init function.</li>
+<li>Issue #151: Added thumbnails to media and displayed those instead of full image.</li>
+<li>Issue #144: Slides had error if last slide was deleted.</li>
+<li>Color field was outputting hex in the wrong location.</li>
+<li>Added ACE Editor field, allowing for better inline editing.</li>
+</ul>
+<h2 id="3-0-4">3.0.4</h2>
+<ul>
+<li>Fixed an odd saving issue.</li>
+<li>Fixed link issues in the framework</li>
+<li>Issue #135: jQuery UI wasn&#39;t being properly queued</li>
+<li>Issue #140: Admin notice glitch. See <a href="http://reduxframework.com/2013/10/wordpress-notifications-custom-options-panels/">http://reduxframework.com/2013/10/wordpress-notifications-custom-options-panels/</a></li>
+<li>Use hooks instead of custom variable for custom admin CSS</li>
+<li>Added &quot;raw&quot; field that allows PHP or a hook to embed anything in the panel.</li>
+<li>Submenus in Admin now change the tabs without reloading the page.</li>
+<li>Small fix for multi-text.</li>
+<li>Added IT_it and RO_ro languages.</li>
+<li>Updated readme file for languages.</li>
+</ul>
+<h2 id="3-0-3">3.0.3</h2>
+<ul>
+<li>Fixed Issue #129: Spacing field giving an undefined.</li>
+<li>Fixed Issue #131: Google Fonts stylesheet appending to body and also to the top of the header. Now properly placed<pre><code>              both at the end of the head tag as to overload any theme stylesheets.
+</code></pre></li>
+<li>Fixed issue #132 (See #134, thanks @andreilupu): Could not have multiple WordPress Editors (wp_editor) as the<pre><code>              same ID was shared. Also fixed various styles to match WordPress for this field.
+</code></pre></li>
+<li>Fixed Issue #133: Issue when custom admin stylesheet was used, a JS error resulted.</li>
+</ul>
+<h2 id="3-0-2">3.0.2</h2>
+<ul>
+<li>Improvements to slides, various field fixes and improvements. Also fixed a few user submitted issues.</li>
+</ul>
+<h2 id="3-0-1">3.0.1</h2>
+<ul>
+<li>Backing out a bit of submitted code that caused the input field to not properly break.</li>
+</ul>
+<h2 id="3-0-0">3.0.0</h2>
+<ul>
+<li>Initial WordPress.org plugin release.</li>
+</ul>
+<h2 id="3-0">3.0</h2>
+<p>Redux is now hosted on WordPress.org! Update in order to get proper, stable updates.</p>
+<ul>
+<li>Removed get() and show()</li>
+<li>Fixed huge performance bug</li>
+<li>More bugfixes</li>
+<li>Fixed spacing field</li>
+<li>Converted Redux to run as an auto-updating plugin. Getting ready to post to WordPress.org</li>
+<li>Fixed the auto updater to properly show changes since the last update</li>
+<li>Various fields including link_color, spacing, dimensions</li>
+<li>Compiler hooks to allow developers to generate CSS files only when needed</li>
+<li>Stability and standardizing in HTML output throughout</li>
+<li>PHP/CSS/JS fixes</li>
+<li>Compress JS and use LESS (and compressed CSS) throughout</li>
+</ul>
+<h2 id="version-3-0-0-beta-september-12-2013-">Version 3.0.0 Beta (September 12, 2013)</h2>
+<ul>
+<li>Massive code overhaul</li>
+<li>Replaced redundant field types with data elements</li>
+<li>Migrated to company repo</li>
+<li>Added several new storage methods</li>
+<li>Numerous bugfixes</li>
+<li>Renamed std argument to default</li>
+<li>Added MP6 support</li>
+<li>Complete CSS rewrite</li>
+<li>Globals are now conditional</li>
+<li>Added nesting support</li>
+<li>Added repeatable field</li>
+<li>Restyled Dev Mode</li>
+<li>Added System Info tab</li>
+<li>Added compiler hooks</li>
+<li>Added style and icon support to info field</li>
+<li>Switched to Elusive Icons</li>
+<li>Huge performance updates</li>
+</ul>
+<h2 id="version-2-0-1-final-september-1-2013-">Version 2.0.1 Final (September 1, 2013)</h2>
+<ul>
+<li>Added option to override <code>icon_type</code> per icon</li>
+<li>Minor bug/versioning fixes</li>
+<li>Added Font Awesome intro</li>
+<li>Added <code>raw_html</code> option</li>
+<li>Added <code>text_sortable</code> option</li>
+<li>Switched from Aristo to Bootstrap jQuery UI theme</li>
+</ul>
+<h2 id="version-2-0-0-january-31-2013-">Version 2.0.0 (January 31, 2013)</h2>
+<ul>
+<li>Fixed SSL error which occurred occasionally with Google Webfonts </li>
+<li>Added optional flag for <code>wpautop</code> on editors</li>
+<li>Added password field type</li>
+<li>Added <code>checkbox_hide_all</code> option</li>
+<li>Added WP3.5 media chooser</li>
+<li>Added Google webfonts previews</li>
+<li>Updated to WP3.5 color picker</li>
+<li>Minor style tweaks</li>
+<li>Added graphical &#39;switch&#39; option for checkboxes</li>
+<li>Removed dependency on class extension for fields</li>
+<li>Deprecated icons in favor of iconfonts</li>
+</ul>
+<h2 id="version-1-0-0-december-5-2012-">Version 1.0.0 (December 5, 2012)</h2>
+<ul>
+<li>Based on NHP Theme Options Framework v1.0.6</li>
+<li>Cleaned up codebase</li>
+<li>Changed option group name to allow multiple instances</li>
+<li>Changed checkbox name attribute to id</li>
+<li>Added rows attribute to textareas</li>
+<li>Removed extra linebreak in upload field</li>
+<li>Set default menu position to null to avoid conflicts</li>
+<li>Added sample content for dashboard credit line</li>
+<li>Minor style changes</li>
+<li>Changed name of upload button</li>
+<li>Refactored Google Webfonts function</li>
+<li>Replaced <code>stylesheet_override</code> with <code>admin_stylesheet</code></li>
+<li>Made text domain a constant</li>
+<li>Removed PHP closing tags to prevent issues with newlines</li>
+<li>Added option to define custom start tab</li>
+</ul>

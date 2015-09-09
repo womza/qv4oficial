@@ -1,0 +1,803 @@
+<wpml-config>
+    <admin-texts>
+      <key name="sk8er">
+        <key name="sk8er_header_info" />
+        <key name="sk8er_footer_info" />
+        <key name="sk8er_footer_subscribe" />
+        <key name="sk8er_footer_copyright" />
+        <key name="sk8er_footer_copyright_link" />
+        <key name="sk8er_footer_instagram_feed" />
+        <key name="sk8er_footer_shortcode_feed" />
+        <key name="sk8er_footer_about_text" />
+        <key name="sk8er_footer_about_link" />
+        <key name="sk8er_footer_about_link_text" />
+        <key name="sk8er_services">
+          <key name="0">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+          <key name="1">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+          <key name="2">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+          <key name="3">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+          <key name="4">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+          <key name="5">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+        </key>
+        <key name="sk8er_testimonials">
+          <key name="0">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+          <key name="1">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+          <key name="2">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+          <key name="3">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+          <key name="4">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+          <key name="5">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+        </key>
+        <key name="sk8er_benefits_section">
+          <key name="0">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+          <key name="1">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+          <key name="2">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+          <key name="3">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+          <key name="4">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+          <key name="5">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+        <key name="sk8er_iwd_details">
+          <key name="0">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+          <key name="1">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+          <key name="2">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+          <key name="3">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+          <key name="4">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+          <key name="5">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+        </key>
+        <key name="sk8er_products_table">
+          <key name="0">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+          <key name="1">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+          <key name="2">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+          <key name="3">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+          <key name="4">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+          <key name="5">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+        <key name="sk8er_star_features">
+          <key name="0">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+          <key name="1">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+          <key name="2">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+          <key name="3">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+          <key name="4">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+          <key name="5">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+        </key>
+        <key name="sk8er_about_title" />
+        <key name="sk8er_about_subtitle" />
+        <key name="sk8er_about_text" />
+        <key name="sk8er_soundcloud">
+          <key name="0">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+          <key name="1">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+          <key name="2">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+          <key name="3">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+          <key name="4">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+          <key name="5">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+        </key>
+        <key name="sk8er_soundcloud_url" />
+        <key name="sk8er_soundcloud_button" />
+        <key name="sk8er_contact_shortcode" />
+        <key name="sk8er_contact_info_1_title" />
+        <key name="sk8er_contact_info_1" />
+        <key name="sk8er_contact_info_2_title" />
+        <key name="sk8er_contact_info_2" />
+        <key name="sk8er_contact_info_3_title" />
+        <key name="sk8er_contact_info_3" />
+        <key name="sk8er_contact_info_4_title" />
+        <key name="sk8er_contact_info_4" />
+        <key name="sk8er_steps">
+          <key name="0">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+          <key name="1">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+          <key name="2">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+          <key name="3">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+          <key name="4">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+          <key name="5">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+        </key>
+        <key name="sk8er_stepsv2" />
+        <key name="sk8er_stepsv3" />
+        <key name="sk8er_mockup_stats">
+          <key name="0">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+          <key name="1">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+          <key name="2">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+          <key name="3">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+          <key name="4">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+          <key name="5">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+        </key>
+        <key name="sk8er_pwt_products_title" />
+        <key name="sk8er_pwt_products_subtitle" />
+        <key name="sk8er_pwt_products" />
+        <key name="sk8er_pwt_testimonials">
+          <key name="0">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+          <key name="1">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+          <key name="2">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+          <key name="3">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+          <key name="4">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+          <key name="5">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+        </key>
+        <key name="sk8er_process_tabs">
+          <key name="0">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+          <key name="1">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+          <key name="2">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+          <key name="3">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+          <key name="4">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+          <key name="5">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+        </key>
+        <key name="sk8er_ial_location" />
+        <key name="sk8er_ial_info">
+          <key name="0">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+          <key name="1">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+          <key name="2">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+          <key name="3">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+          <key name="4">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+          <key name="5">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+        </key>
+        <key name="sk8er_aws_main_title" />
+        <key name="sk8er_aws_about_title" />
+        <key name="sk8er_aws_about_text" />
+        <key name="sk8er_aws_about_link" />
+        <key name="sk8er_aws_slider">
+          <key name="0">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+          <key name="1">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+          <key name="2">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+          <key name="3">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+          <key name="4">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+          <key name="5">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+        </key>
+        <key name="sk8er_laf_list_title" />
+        <key name="sk8er_laf_list_items" />
+        <key name="sk8er_laf_faq_title" />
+        <key name="sk8er_laf_faq_items_text" />
+        <key name="sk8er_minimalinfo_title" />
+        <key name="sk8er_minimalinfo_info_re" />
+        <key name="sk8er_ib_first_title" />
+        <key name="sk8er_ib_first_title" />
+        <key name="sk8er_ib_first_info" />
+        <key name="sk8er_ib_second_title" />
+        <key name="sk8er_ib_second_info" />
+        <key name="sk8er_ib_third_title" />
+        <key name="sk8er_ib_third_info" />
+        <key name="sk8er_ib_fourth_title" />
+        <key name="sk8er_ib_fourth_info" />
+        <key name="sk8er_ib_fifth_title" />
+        <key name="sk8er_ib_fifth_info" />
+        <key name="sk8er_ib_contact_link" />
+        <key name="sk8er_detailed_first_main_title" />
+        <key name="sk8er_detailed_first_sub_title" />
+        <key name="sk8er_detailed_first_text" />
+        <key name="sk8er_detailed_first_info_title" />
+        <key name="sk8er_detailed_first_info">
+          <key name="0">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+          <key name="1">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+          <key name="2">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+          <key name="3">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+          <key name="4">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+          <key name="5">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+        </key>
+        <key name="sk8er_detailed_second_main_title" />
+        <key name="sk8er_detailed_second_sub_title" />
+        <key name="sk8er_detailed_second_text" />
+        <key name="sk8er_detailed_second_info_title" />
+        <key name="sk8er_detailed_second_info">
+          <key name="0">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+          <key name="1">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+          <key name="2">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+          <key name="3">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+          <key name="4">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+          <key name="5">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+        </key>
+        <key name="sk8er_clients_title" />
+        <key name="sk8er_clients_description" />
+        <key name="sk8er_clients">
+          <key name="0">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+          <key name="1">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+          <key name="2">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+          <key name="3">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+          <key name="4">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+          <key name="5">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+        </key>
+        <key name="sk8er_twis_text">
+          <key name="0">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+          <key name="1">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+          <key name="2">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+          <key name="3">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+          <key name="4">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+          <key name="5">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+        </key>
+        <key name="sk8er_lwis_text">
+          <key name="0">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+          <key name="1">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+          <key name="2">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+          <key name="3">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+          <key name="4">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+          <key name="5">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+        </key>
+        <key name="sk8er_features_list">
+          <key name="0">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+          <key name="1">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+          <key name="2">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+          <key name="3">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+          <key name="4">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+          <key name="5">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+        </key>
+        <key name="sk8er_listed_items">
+          <key name="0">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+          <key name="1">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+          <key name="2">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+          <key name="3">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+          <key name="4">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+          <key name="5">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+        </key>
+        <key name="sk8er_faq_secton_items" />
+        <key name="sk8er_svg_head_title" />
+        <key name="sk8er_svg_head_subtitle" />
+        <key name="sk8er_svg_head_buttons">
+          <key name="0">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+          <key name="1">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+          <key name="2">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+          <key name="3">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+          <key name="4">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+          <key name="5">
+              <key name="title" />
+              <key name="description" />
+              <key name="url" />
+          </key>
+        </key>
+      </key>
+    </admin-texts>
+    <custom-types>
+      <custom-type translate="1">portfolio</custom-type>
+      <custom-type translate="1">members</custom-type>
+      <custom-type translate="1">events</custom-type>
+      <custom-type translate="1">wines</custom-type>
+      <custom-type translate="1">services</custom-type>
+      <custom-type translate="1">shop_news</custom-type>
+      <custom-type translate="1">pricing_packages</custom-type>
+      <custom-type translate="1">fun_facts</custom-type>
+      <custom-type translate="1">page_links</custom-type>
+    </custom-types>
+    <custom-fields>
+      <custom-field action="ignore">slide_template</custom-field>
+      <custom-field action="ignore">_vc_post_settings</custom-field>
+      <custom-field action="copy">sk8er_audio_id</custom-field>
+      <custom-field action="copy">sk8er_link_url</custom-field>
+      <custom-field action="copy">sk8er_video_vimeo_id</custom-field>
+      <custom-field action="copy">sk8er_video_youtube_id</custom-field>
+      <custom-field action="copy">sk8er_video_mp4</custom-field>
+
+      <custom-field action="copy">sk8er_portfolio_images</custom-field>
+      <custom-field action="copy">sk8er_portfolio_images_layout</custom-field>
+      <custom-field action="copy">sk8er_portfolio_client_name</custom-field>
+      <custom-field action="copy">sk8er_portfolio_client_url</custom-field>
+      <custom-field action="translate">sk8er_portfolio_tasks</custom-field>
+      <custom-field action="translate">sk8er_portfolio_additional_info</custom-field>
+
+      <custom-field action="translate">sk8er_member_position</custom-field>
+      <custom-field action="copy">sk8er_member_transparent_image_id</custom-field>
+      <custom-field action="copy">sk8er_member_transparent_image</custom-field>
+      <custom-field action="copy">sk8er_member_background_color</custom-field>
+      <custom-field action="copy">sk8er_member_social</custom-field>
+
+      <custom-field action="copy">sk8er_event_date</custom-field>
+      <custom-field action="copy">sk8er_event_city</custom-field>
+      <custom-field action="copy">sk8er_event_image_id</custom-field>
+      <custom-field action="copy">sk8er_event_image</custom-field>
+      <custom-field action="translate">sk8er_event_quote_smaller</custom-field>
+      <custom-field action="translate">sk8er_event_quote_bigger</custom-field>
+      <custom-field action="copy">sk8er_event_single_image_id</custom-field>
+      <custom-field action="copy">sk8er_event_single_image</custom-field>
+
+      <custom-field action="copy">sk8er_wine_year</custom-field>
+      <custom-field action="copy">sk8er_wine_thumb_bg_id</custom-field>
+      <custom-field action="copy">sk8er_wine_thumb_bg</custom-field>
+
+      <custom-field action="copy">sk8er_services_icon</custom-field>
+
+      <custom-field action="translate">sk8er_shop_news_title_smaller</custom-field>
+      <custom-field action="translate">sk8er_shop_news_title_bigger</custom-field>
+      <custom-field action="ignore">_wp_old_slug</custom-field>
+
+      <custom-field action="translate">sk8er_pricing_package_description</custom-field>
+      <custom-field action="translate">sk8er_pricing_package_price_currency</custom-field>
+      <custom-field action="translate">sk8er_pricing_package_price</custom-field>
+      <custom-field action="translate">sk8er_pricing_package_paying_period</custom-field>
+      <custom-field action="copy">_vc_post_settings</custom-field>
+
+      <custom-field action="copy">sk8er_funfacts_number</custom-field>
+
+      <custom-field action="copy">sk8er_pagelink_url</custom-field>
+    </custom-fields>
+</wpml-config>
