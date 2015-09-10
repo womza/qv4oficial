@@ -10637,13 +10637,16 @@ section.style-1 {
     /* line 26, C:/wamp/www/Sk8er_Revision/wp-content/themes/sk8er/sass/sections/style-1 */
     section.style-1 .title-bar:before {
       counter-increment: subsection;
-      content: "0" counter(subsection);
+      content: "";
+        background: url(img/style-4-title-bg-grey.png) center center no-repeat;
+        width: 157px;
+        height: 157px;
       font-size: 135px;
       line-height: 60px;
       color: #e6e6e6;
       font-family: "Bebas";
       position: absolute;
-      top: 0;
+      top: -100%;
       left: 50%;
       -webkit-transform: translateX(-50%);
       -moz-transform: translateX(-50%);
