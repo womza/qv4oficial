@@ -13875,7 +13875,11 @@ section.style-4 {
   /* line 590, C:/wamp/www/Sk8er_Revision/wp-content/themes/sk8er/sass/sections/style-4 */
   section.style-4.about {
     padding: 60px 0;
-    background: #2c313e; }
+      background: #2c313e;
+      background-image: url(img/style-3-image-2-bg.png);
+      background-size: cover;
+      background-position: center center;
+    }
     /* line 594, C:/wamp/www/Sk8er_Revision/wp-content/themes/sk8er/sass/sections/style-4 */
     section.style-4.about .container {
       position: relative; }
