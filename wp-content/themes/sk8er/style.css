@@ -13680,7 +13680,7 @@ section.style-4 {
         right: 0;
         bottom: 0;
         left: 0;
-        background: rgba(0, 0, 0, 0.75); }
+        /*background: rgba(0, 0, 0, 0.75);*/ }
       /* line 367, C:/wamp/www/Sk8er_Revision/wp-content/themes/sk8er/sass/sections/style-4 */
       section.style-4.happening .list .happening-slick .one .event-info .inside .icon, section.style-4.happening .list .happening-slick .one .event-info .inside .content {
         z-index: 3; }
