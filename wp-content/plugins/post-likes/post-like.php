@@ -208,11 +208,11 @@ function getPostLikeLink( $post_id ) {
 	$count = ( empty( $like_count ) || $like_count == "0" ) ? 'Like' : esc_attr( $like_count );
 	if ( AlreadyLiked( $post_id ) ) {
 		$class = esc_attr( ' liked' );
-		$title = esc_attr( 'Unlike' );
+		$title = esc_attr( 'No me gusta' );
 		$heart = '<i class="icon-like fa fa-heart"></i>';
 	} else {
 		$class = esc_attr( '' );
-		$title = esc_attr( 'Like' );
+		$title = esc_attr( 'Me gusta' );
 		$heart = '<i class="icon-unlike fa fa-heart-o"></i>';
 	}
 	$output = '<a href="#" class="jm-post-like'.$class.' ia" data-post_id="'.$post_id.'" title="'.$title.'">'.$count.' '.$heart.'</a>';
