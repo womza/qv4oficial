@@ -87,7 +87,7 @@ class WPBakeryShortCode_vc_s4_events extends  WPBakeryShortCode
                                             <div class="cpad event-post">
                                                 <div class="inside">
                                                     <?php if (has_post_thumbnail()): ?>
-                                                        <?php $thumb_url = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'full' ); ?>
+                                                        <?php $thumb_url = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'medium' ); ?>
                                                         <div class="image" style="background-image: url(<?php echo esc_url($thumb_url[0]); ?>);">
                                                             <div class="cut"></div>
                                                             <a href="<?php the_permalink(); ?>"></a>

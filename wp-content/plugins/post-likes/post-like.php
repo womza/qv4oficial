@@ -205,7 +205,7 @@ function AlreadyLiked( $post_id ) { // test if user liked before
  */
 function getPostLikeLink( $post_id ) {
 	$like_count = get_post_meta( $post_id, "_post_like_count", true ); // get post likes
-	$count = ( empty( $like_count ) || $like_count == "0" ) ? 'Like' : esc_attr( $like_count );
+	$count = ( empty( $like_count ) || $like_count == "0" ) ? 'Me gusta' : esc_attr( $like_count );
 	if ( AlreadyLiked( $post_id ) ) {
 		$class = esc_attr( ' liked' );
 		$title = esc_attr( 'No me gusta' );
