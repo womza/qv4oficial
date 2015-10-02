@@ -10068,8 +10068,8 @@ footer.text {
         display: none; }
   /* line 4142, C:/wamp/www/Sk8er_Revision/wp-content/themes/sk8er/sass/general */
   .big-page-title.s-2 .container .valign h3 {
-    border-top: 3px solid #fff;
-    border-bottom: 3px solid #fff;
+    /*border-top: 3px solid #fff;
+    border-bottom: 3px solid #fff;*/
     padding: 25px 0; }
     /* line 4147, C:/wamp/www/Sk8er_Revision/wp-content/themes/sk8er/sass/general */
     .big-page-title.s-2 .container .valign h3:after {
