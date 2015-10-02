@@ -76,8 +76,8 @@
                                     <div class="hover">
                                         <div class="title"><?php the_title(); ?></div>
                                         <div class="actions">
-                                            <a href="<?php the_permalink(); ?>"><i class="fa fa-chain"></i></a>
-                                                <span class="sep"></span>
+                                            <!--<a href="<?php /*the_permalink(); */?>"><i class="fa fa-chain"></i></a>
+                                                <span class="sep"></span>-->
                                             <a href="<?php echo esc_url($thumbnail); ?>" class="swipebox"><i class="fa fa-search"></i></a>
                                         </div>
                                     </div>
