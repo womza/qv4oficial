@@ -14,11 +14,11 @@
 					data : {action: "load_more", offset:offset, nonce:nonce, post_type:post_type, posts_per_page:headJS.posts_per_page},
 		         	beforeSend: function(data) {
 						// here u can do some loading animation...
-						$load_more_btn.addClass('loading').html('<span>Loading...</span>');// good for styling and also to prevent ajax calls before content is loaded by adding loading class
+						$load_more_btn.addClass('loading').html('<span>Cargando...</span>');// good for styling and also to prevent ajax calls before content is loaded by adding loading class
 		         	},
 		         	success: function(response) {
 						if (response['have_posts'] == 1){//if have posts:
-							$load_more_btn.removeClass('loading').html('<span>Load More</span>');
+							$load_more_btn.removeClass('loading').html('<span>Cargar m&aacute;s</span>');
 							var $newElems = $(response['html'].replace(/(\r\n|\n|\r)/gm, ''));// here removing extra breaklines and spaces
 							$('.portfolio-items-wrapper').append($newElems);
 
@@ -47,7 +47,7 @@
 							});
 						} else {
 							//end of posts (no posts found)
-							$load_more_btn.removeClass('loading').addClass('end_of_posts').html('<span>End of posts</span>'); // change buttom styles if no more posts
+							$load_more_btn.removeClass('loading').addClass('end_of_posts').html('<span>Fin de Post</span>'); // change buttom styles if no more posts
 						}
 		         	}
 		      	});
