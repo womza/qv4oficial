@@ -99,7 +99,7 @@
 	                		<?php if ($my_query->have_posts() ) : while ($my_query->have_posts()) : $my_query->the_post(); ?>
 
 	                			<?php if (has_post_thumbnail( $post->ID ) ): ?>
-		                			<?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'full' ); ?>
+		                			<?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'medium' ); ?>
 		                			<?php $thumbnail = $image[0]; ?>
 		                		<?php else: ?>
 		                			<?php $thumbnail = ""; ?>
@@ -146,7 +146,7 @@
 			                		<?php $x = 1; $total = 1; ?>
 			                		<?php while ( $wp_query->have_posts() ) : $wp_query->the_post(); ?>
 			                			<?php if (has_post_thumbnail( $post->ID ) ): ?>
-				                			<?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'full' ); ?>
+				                			<?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'medium' ); ?>
 				                			<?php $thumbnail = $image[0]; ?>
 				                		<?php else: ?>
 				                			<?php $thumbnail = ""; ?>
@@ -240,7 +240,7 @@
 				        					<?php else: ?>
 				        						<?php if (has_post_thumbnail()): ?>
 				        							<?php
-				        							$thumb_url = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'full' );
+				        							$thumb_url = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'medium' );
 				        							?>
 				        							<div class="image" style="background-image: url(<?php echo esc_url($thumb_url[0]); ?>);">
 				        						    	<a href="<?php the_permalink(); ?>"></a>

@@ -23,10 +23,14 @@ class WPBakeryShortCode_vc_s4_about extends  WPBakeryShortCode
             $subtitle   = $sk8er['sk8er_about_subtitle'];
             $text       = $sk8er['sk8er_about_text'];
             $bg_image   = $sk8er['sk8er_about_bg_image'];
-            $image_1    = $sk8er['sk8er_about_image_1']['url'];
-            $image_2    = $sk8er['sk8er_about_image_2']['url'];
-            $image_3    = $sk8er['sk8er_about_image_3']['url'];
-            $image_4    = $sk8er['sk8er_about_image_4']['url'];
+            $image_1    = $sk8er['sk8er_about_image_1']['thumbnail'];
+            $image_1_big    = $sk8er['sk8er_about_image_1']['url'];
+            $image_2    = $sk8er['sk8er_about_image_2']['thumbnail'];
+            $image_2_big    = $sk8er['sk8er_about_image_2']['url'];
+            $image_3    = $sk8er['sk8er_about_image_3']['thumbnail'];
+            $image_3_big    = $sk8er['sk8er_about_image_3']['url'];
+            $image_4    = $sk8er['sk8er_about_image_4']['thumbnail'];
+            $image_4_big    = $sk8er['sk8er_about_image_4']['url'];
         ?>
     
                        <section class="style-4 about">
@@ -56,7 +60,7 @@ class WPBakeryShortCode_vc_s4_about extends  WPBakeryShortCode
                                                             </div>
 
                                                             <div class="links">
-                                                                <a href="<?php echo esc_url($image_1); ?>" class="open-image swipebox" rel="gallery-about-1"><i class="fa fa-search-plus"></i></a>
+                                                                <a href="<?php echo esc_url($image_1_big); ?>" class="open-image swipebox" rel="gallery-about-1"><i class="fa fa-search-plus"></i></a>
                                                             </div>
                                                           </div>
                                                     </div>
@@ -73,7 +77,7 @@ class WPBakeryShortCode_vc_s4_about extends  WPBakeryShortCode
                                                               </div>
 
                                                               <div class="links">
-                                                                  <a href="<?php echo esc_url($image_2); ?>" class="open-image swipebox" rel="gallery-about-1"><i class="fa fa-search-plus"></i></a>
+                                                                  <a href="<?php echo esc_url($image_2_big); ?>" class="open-image swipebox" rel="gallery-about-1"><i class="fa fa-search-plus"></i></a>
                                                               </div>
                                                         </div>
                                                     </div>
@@ -88,7 +92,7 @@ class WPBakeryShortCode_vc_s4_about extends  WPBakeryShortCode
                                                           </div>
 
                                                           <div class="links">
-                                                              <a href="<?php echo esc_url($image_3); ?>" class="open-image swipebox" rel="gallery-about-1"><i class="fa fa-search-plus"></i></a>
+                                                              <a href="<?php echo esc_url($image_3_big); ?>" class="open-image swipebox" rel="gallery-about-1"><i class="fa fa-search-plus"></i></a>
                                                           </div>
                                                         </div>
                                                     </div>
@@ -103,7 +107,7 @@ class WPBakeryShortCode_vc_s4_about extends  WPBakeryShortCode
                                                               </div>
 
                                                               <div class="links">
-                                                                  <a href="<?php echo esc_url($image_4); ?>" class="open-image swipebox" rel="gallery-about-1"><i class="fa fa-search-plus"></i></a>
+                                                                  <a href="<?php echo esc_url($image_4_big); ?>" class="open-image swipebox" rel="gallery-about-1"><i class="fa fa-search-plus"></i></a>
                                                               </div>
                                                          </div>
                                                 </div>

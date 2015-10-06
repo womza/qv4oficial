@@ -430,7 +430,7 @@ require get_template_directory() . '/inc/theme/loadmore.php';
 					<div class="latest-post-widget">
 						<?php while($wp_query->have_posts()): $wp_query->the_post(); ?>
 							<a href="<?php the_permalink(); ?>">
-								<span class="image"><?php echo get_the_post_thumbnail( $post->ID, 'full' ); ?></span>
+								<span class="image"><?php echo get_the_post_thumbnail( $post->ID, 'medium' ); ?></span>
 								<span class="details">
 									<span class="name"><?php the_title(); ?></span>
 									<span class="date"><?php the_time('F d, Y'); ?></span>
