@@ -77,7 +77,13 @@ class WPBakeryShortCode_vc_s1_our_services extends  WPBakeryShortCode
                                                                     <span class="topbottom-border"></span>
                                                                 </div>
                                                                 <?php if (!empty($service['description'])): ?>
-                                                                    <p><?php echo esc_html($service['description']); ?></p>
+                                                                    <?php $service_description = explode('-', esc_html($service['description'])) ?>
+                                                                    <p>
+                                                                        <?php
+                                                                        foreach($service_description as $key => $value)
+                                                                            echo ($key + 1).") {$value}<br />";
+                                                                        ?>
+                                                                    </p>
                                                                 <?php endif ?>
                                                             </div>
                                                         </div>
