@@ -61,7 +61,7 @@ class WPBakeryShortCode_vc_s10_latest_news extends  WPBakeryShortCode
                                 <?php while($wp_query->have_posts()) : $wp_query->the_post() ?>
                                     <div class="one">
                                         <?php if (has_post_thumbnail()): ?>
-                                            <?php $thumb_url = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'full' ); ?>
+                                            <?php $thumb_url = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'medium' ); ?>
                                             <div class="image" style="background-image: url(<?php echo esc_url($thumb_url[0]); ?>);">
                                                 <a href="<?php the_permalink(); ?>">
                                                     <span class="topbottom-border"></span>
