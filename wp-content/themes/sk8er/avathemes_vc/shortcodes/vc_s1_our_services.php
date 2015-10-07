@@ -77,11 +77,15 @@ class WPBakeryShortCode_vc_s1_our_services extends  WPBakeryShortCode
                                                                     <span class="topbottom-border"></span>
                                                                 </div>
                                                                 <?php if (!empty($service['description'])): ?>
-                                                                    <?php $service_description = explode('-', esc_html($service['description'])) ?>
+                                                                    <?php $service_description = explode("\n", esc_html($service['description'])) ?>
                                                                     <p>
                                                                         <?php
-                                                                        foreach($service_description as $key => $value)
-                                                                            echo ($key + 1).") {$value}<br />";
+                                                                        foreach($service_description as $key => $value) {
+                                                                            $value = trim($value);
+                                                                            if (strrpos($value, ' -'))
+                                                                                $value = substr($value, 0, -2);
+                                                                            echo ($key + 1) . ") {$value}<br />";
+                                                                        }
                                                                         ?>
                                                                     </p>
                                                                 <?php endif ?>
